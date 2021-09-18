@@ -1,6 +1,6 @@
 {
 	"name": "@daiyam/artifact-vsx-zokugun",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "The configuration to have the organization Zokugun as the author of the created Visual Studio extension.",
 	"author": {
 		"name": "Baptiste Augrain",
