@@ -1,0 +1,13 @@
+{
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
+	"scripts": {
+		"compile": "tsc -p src",
+		"prepublishOnly": "npm run compile",
+		"release": "release-it",
+		"watch": "tsc -watch -p src"
+	},
+	"devDependencies": {
+		"release-it": "^14.11.3"
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"author": {
+		"name": "Baptiste Augrain",
+		"email": "daiyam@zokugun.org"
+	},
+	"publisher": "zokugun",
+	"license": "MIT",
+	"homepage": "https://github.com/zokugun/REPOSITORY_NAME",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/zokugun/REPOSITORY_NAME.git"
+	},
+	"bugs": {
+		"url": "https://github.com/zokugun/REPOSITORY_NAME/issues"
+	},
+	"galleryBanner": {
+		"color": "#373b41",
+		"theme": "dark"
+	}
+}

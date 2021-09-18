@@ -1,0 +1,15 @@
+{
+	"author": {
+		"name": "Baptiste Augrain",
+		"email": "daiyam@zokugun.org"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/daiyam/REPOSITORY_NAME",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/daiyam/REPOSITORY_NAME.git"
+	},
+	"bugs": {
+		"url": "https://github.com/daiyam/REPOSITORY_NAME/issues"
+	}
+}

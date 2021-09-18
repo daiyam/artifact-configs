@@ -1,0 +1,34 @@
+{
+	"name": "artifact-configs",
+	"description": "A collection of configurations using artifact",
+	"private": true,
+	"author": {
+		"name": "Baptiste Augrain",
+		"email": "daiyam@zokugun.org"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/daiyam/artifact-configs",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/daiyam/artifact-configs.git"
+	},
+	"bugs": {
+		"url": "https://github.com/daiyam/artifact-configs/issues"
+	},
+	"scripts": {
+		"commit": "cz",
+		"prepare": "husky install",
+		"publish": "lerna publish"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^13.1.0",
+		"@commitlint/config-conventional": "^13.1.0",
+		"@commitlint/config-lerna-scopes": "^13.1.0",
+		"commitizen": "^4.2.4",
+		"fixpack": "^4.0.0",
+		"husky": "^7.0.1",
+		"lerna": "^4.0.0",
+		"lint-staged": "^11.1.1"
+	},
+	"dependencies": {}
+}

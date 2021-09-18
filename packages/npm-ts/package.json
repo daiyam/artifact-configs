@@ -1,0 +1,34 @@
+{
+	"name": "@daiyam/artifact-npm-ts",
+	"version": "0.0.0",
+	"description": "The configuration to create node modules and publish them on npm.",
+	"author": {
+		"name": "Baptiste Augrain",
+		"email": "daiyam@zokugun.org"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/daiyam/artifact-configs/tree/master/packages/npm-ts",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/daiyam/artifact-configs.git"
+	},
+	"bugs": {
+		"url": "https://github.com/daiyam/artifact-configs/issues"
+	},
+	"keywords": [
+		"artifact",
+		"boilerplate",
+		"boilerplates",
+		"codegeneration",
+		"codemod",
+		"codemods",
+		"configuration",
+		"configurations",
+		"generate",
+		"generator",
+		"project-generator",
+		"project-starter",
+		"project-template",
+		"scaffold"
+	]
+}
