@@ -1,0 +1,10 @@
+update:
+  package.json:
+    filter:
+      - main
+      - scripts
+      - devDependencies
+  src/extension.ts:
+    missing: false
+    update: false
+

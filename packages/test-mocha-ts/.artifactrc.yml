@@ -1,0 +1,4 @@
+update:
+  test/*.ts:
+    missing: false
+    update: false
