@@ -1,28 +1,5 @@
 {
 	"rules": {
-		"arrow-parens": [
-			"error",
-			"always"
-		],
-		"capitalized-comments": "off",
-		"complexity": "off",
-		"default-case": "off",
-		"max-depth": [
-			"error",
-			8
-		],
-		"max-params": [
-			"error",
-			12
-		],
-		"no-await-in-loop": "off",
-		"no-else-return": "off",
-		"no-lonely-if": "off",
-		"no-negated-condition": "off",
-		"one-var": [
-			"error",
-			"never"
-		],
 		"@typescript-eslint/brace-style": [
 			"error",
 			"stroustrup"
@@ -57,6 +34,47 @@
 		"@typescript-eslint/object-curly-spacing": [
 			"error",
 			"always"
+		],
+		"arrow-parens": [
+			"error",
+			"always"
+		],
+		"capitalized-comments": "off",
+		"complexity": "off",
+		"default-case": "off",
+		"import/order": [
+			"error",
+			{
+				"groups": [
+					"builtin",
+					"external",
+					"internal",
+					"parent",
+					"sibling",
+					"index",
+					"object"
+				],
+				"alphabetize": {
+					"order": "asc",
+					"caseInsensitive": true
+				}
+			}
+		],
+		"max-depth": [
+			"error",
+			8
+		],
+		"max-params": [
+			"error",
+			12
+		],
+		"no-await-in-loop": "off",
+		"no-else-return": "off",
+		"no-lonely-if": "off",
+		"no-negated-condition": "off",
+		"one-var": [
+			"error",
+			"never"
 		],
 		"unicorn/empty-brace-spaces": "off",
 		"unicorn/no-array-callback-reference": "off",
