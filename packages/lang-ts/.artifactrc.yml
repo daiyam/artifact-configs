@@ -3,5 +3,8 @@ update:
     route:
       json:
         compose:
+          ignores: listConcat
+          overrides: listConcat
+          plugins: listConcat
           rules: [mapConcat, mapSort]
           $$default: overwrite
