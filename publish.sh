@@ -13,7 +13,9 @@ for name in *; do
 
 		cd "$name"
 
-		npm unpublish "@daiyam/artifact-${name}@0.1.0"
+		version="$( jq -r ".version" package.json )"
+
+		npm unpublish "@daiyam/artifact-${name}@${version}" || true
 
 		npm publish
 
