@@ -19,12 +19,6 @@
 		"dependencies",
 		"devDependencies",
 		"optionalDependencies",
-		"activationEvents",
-		"capabilities",
-		"contributes",
-		"icon",
-		"galleryBanner",
-		"categories",
 		"keywords"
     ],
 	"finalNewLine": true
