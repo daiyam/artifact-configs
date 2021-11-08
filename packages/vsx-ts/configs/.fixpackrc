@@ -1,0 +1,14 @@
+{
+	"sortToTop": [
+		"main",
+		"browser",
+		"optionalDependencies",
+		"activationEvents",
+		"capabilities",
+		"contributes",
+		"icon",
+		"galleryBanner",
+		"categories",
+		"keywords"
+    ]
+}

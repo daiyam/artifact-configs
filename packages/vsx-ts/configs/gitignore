@@ -1,3 +1,4 @@
+lib
 out
 .vscode-test/
 *.vsix
