@@ -4,7 +4,6 @@
 		"vscode": "^1.23.0"
 	},
 	"main": "./lib/index.js",
-	"browser": "./lib/index.js",
 	"scripts": {
 		"compile": "tsc -p src",
 		"release": "release-it",
