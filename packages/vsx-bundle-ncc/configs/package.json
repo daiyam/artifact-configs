@@ -1,0 +1,8 @@
+{
+	"scripts": {
+		"bundle": "ncc build out/extension --out lib"
+	},
+	"devDependencies": {
+		"@vercel/ncc": "^0.31.1"
+	}
+}

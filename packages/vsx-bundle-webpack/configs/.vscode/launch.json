@@ -2,12 +2,13 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "Extension",
-			"type": "extensionHost",
+			"name": "Web Extension",
+			"type": "pwa-extensionHost",
+			"debugWebWorkerHost": true,
 			"request": "launch",
-			"runtimeExecutable": "${execPath}",
 			"args": [
-				"--extensionDevelopmentPath=${workspaceFolder}"
+				"--extensionDevelopmentPath=${workspaceFolder}",
+				"--extensionDevelopmentKind=web"
 			],
 			"outFiles": [
 				"${workspaceFolder}/lib/**/*.js"
