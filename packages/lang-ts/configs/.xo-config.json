@@ -30,6 +30,18 @@
 				}
 			}
 		],
+		"@typescript-eslint/naming-convention": [
+			"error",
+			{
+				"selector": "variable",
+				"modifiers": ["const", "global"],
+				"format": ["camelCase", "UPPER_CASE"]
+			},
+			{
+				"selector": "variable",
+				"format": ["camelCase"]
+			}
+		],
 		"@typescript-eslint/no-confusing-void-expression": "off",
 		"@typescript-eslint/no-dynamic-delete": "off",
 		"@typescript-eslint/no-inferrable-types": "off",
@@ -45,6 +57,10 @@
 		"capitalized-comments": "off",
 		"complexity": "off",
 		"default-case": "off",
+		"import/extensions":  [
+			"error",
+			"never"
+		],
 		"import/order": [
 			"error",
 			{
