@@ -3,6 +3,6 @@
 		"bundle": "ncc build out/extension --out lib"
 	},
 	"devDependencies": {
-		"@vercel/ncc": "^0.31.1"
+		"@vercel/ncc": "^0.33.3"
 	}
 }
