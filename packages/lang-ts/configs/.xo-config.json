@@ -34,7 +34,13 @@
 		"@typescript-eslint/member-ordering": [
 			"error",
 			{
-				"default": ["field", "constructor", "get", "set", "method"]
+				"default": [
+					"field",
+					"constructor",
+					"get",
+					"set",
+					"method"
+				]
 			}
 		],
 		"@typescript-eslint/naming-convention": [
