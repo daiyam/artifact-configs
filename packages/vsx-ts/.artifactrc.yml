@@ -7,4 +7,5 @@ update:
   src/extension.ts:
     missing: false
     update: false
-
+  CHANGELOG.md:
+    update: false
