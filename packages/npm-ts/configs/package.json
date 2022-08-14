@@ -8,6 +8,6 @@
 		"watch": "tsc -watch -p src"
 	},
 	"devDependencies": {
-		"release-it": "^14.11.3"
+		"release-it": "^15.3.0"
 	}
 }
