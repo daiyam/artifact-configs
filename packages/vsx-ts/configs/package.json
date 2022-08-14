@@ -12,24 +12,21 @@
 	},
 	"devDependencies": {
 		"@types/vscode": "^1.23.0",
-		"release-it": "^14.11.3",
-		"tsc-watch": "^4.4.0"
+		"release-it": "^15.3.0",
+		"tsc-watch": "^5.0.3"
 	},
 	"activationEvents": [
 		"*"
 	],
 	"contributes": {
-		"commands": [
-		],
+		"commands": [],
 		"configuration": {
 			"title": "EXT_DISPLAY_NAME configuration",
-			"properties": {
-			}
+			"properties": {}
 		}
 	},
 	"categories": [
 		"Other"
 	],
-	"keywords": [
-	]
+	"keywords": []
 }
