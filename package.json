@@ -28,7 +28,6 @@
 		"commitizen": "^4.2.5",
 		"fixpack": "^4.0.0",
 		"husky": "^8.0.1",
-		"lerna": "^5.4.1",
-		"lint-staged": "^13.0.3"
+		"lerna": "^5.4.1"
 	}
 }
