@@ -21,7 +21,7 @@
 	"contributes": {
 		"commands": [],
 		"configuration": {
-			"title": "EXT_DISPLAY_NAME configuration",
+			"title": "EXT_DISPLAY_NAME",
 			"properties": {}
 		}
 	},
