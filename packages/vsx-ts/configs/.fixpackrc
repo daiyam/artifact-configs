@@ -3,6 +3,7 @@
 		"main",
 		"browser",
 		"optionalDependencies",
+		"extensionDependencies",
 		"activationEvents",
 		"capabilities",
 		"contributes",
@@ -10,5 +11,5 @@
 		"galleryBanner",
 		"categories",
 		"keywords"
-    ]
+	]
 }

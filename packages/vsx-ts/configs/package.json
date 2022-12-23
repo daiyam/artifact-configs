@@ -1,11 +1,14 @@
 {
+	"name": "EXT_NAME",
 	"displayName": "EXT_DISPLAY_NAME",
 	"engines": {
 		"vscode": "^1.23.0"
 	},
 	"main": "./lib/index.js",
+	"browser": "./lib/index.js",
 	"scripts": {
 		"compile": "tsc -p src",
+		"package": "rm -f *.vsix && vsce package",
 		"release": "release-it",
 		"vscode:prepublish": "npm run compile && npm run bundle",
 		"watch": "tsc-watch -p src --onSuccess 'npm run bundle'"
@@ -16,14 +19,49 @@
 		"tsc-watch": "^5.0.3"
 	},
 	"activationEvents": [
-		"*"
+		"onStartupFinished"
 	],
+	"capabilities": {
+		"virtualWorkspaces": true,
+		"untrustedWorkspaces": {
+			"supported": true
+		}
+	},
 	"contributes": {
 		"commands": [],
 		"configuration": {
 			"title": "EXT_DISPLAY_NAME",
-			"properties": {}
+			"properties": {
+				"EXT_CFG_KEY.notification": {
+					"type": "string",
+					"description": "Display notification when a new version is installed",
+					"default": "minor",
+					"enum": [
+						"none",
+						"major",
+						"minor",
+						"patch"
+					],
+					"enumDescriptions": [
+						"The new version notification won't be shown anymore.",
+						"The new version notification will be shown only with a new major version",
+						"The new version notification will be shown only with a new minor version",
+						"The new version notification will always be shown"
+					],
+					"scope": "application",
+					"tags": []
+				}
+			}
 		}
+	},
+	"extensionKind": [
+		"ui",
+		"workspace"
+	],
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#ffffff",
+		"theme": "light"
 	},
 	"categories": [
 		"Other"

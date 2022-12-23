@@ -1,8 +1,11 @@
 import vscode from 'vscode';
 import pkg from '../package.json';
 
-const CONFIG_KEY = 'EXT_NAME';
+const CONFIG_KEY = 'EXT_CFG_KEY';
 const VERSION_KEY = 'version';
+
+function setup(): void { // {{{
+} // }}}
 
 async function showWhatsNewMessage(version: string) { // {{{
 	const actions: vscode.MessageItem[] = [{
@@ -60,4 +63,12 @@ export async function activate(context: vscode.ExtensionContext): Promise<void> 
 			void showWhatsNewMessage(currentVersion);
 		}
 	}
+
+	setup();
+
+	vscode.workspace.onDidChangeConfiguration((event) => {
+		if(event.affectsConfiguration(CONFIG_KEY)) {
+			setup();
+		}
+	});
 } // }}}
