@@ -12,9 +12,5 @@
 	},
 	"bugs": {
 		"url": "https://github.com/zokugun/REPOSITORY_NAME/issues"
-	},
-	"galleryBanner": {
-		"color": "#373b41",
-		"theme": "dark"
 	}
 }

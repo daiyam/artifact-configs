@@ -2,7 +2,7 @@ EXT_DISPLAY_NAME
 ================
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
-[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/EXT_ID?label=VS%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=EXT_ID)
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/zokugun.EXT_NAME?label=VS%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=zokugun.EXT_NAME)
 [![Open VSX Version](https://img.shields.io/open-vsx/v/zokugun/EXT_NAME?label=Open%20VSX)](https://open-vsx.org/extension/zokugun/EXT_NAME)
 [![Donation](https://img.shields.io/badge/donate-ko--fi-green)](https://ko-fi.com/daiyam)
 [![Donation](https://img.shields.io/badge/donate-liberapay-green)](https://liberapay.com/daiyam/donate)
