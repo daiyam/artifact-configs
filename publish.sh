@@ -4,18 +4,20 @@ set -e
 
 CALLER_DIR=$( pwd )
 
+nrm use local
+
 cd "$( dirname "${BASH_SOURCE[0]}" )"
 cd packages
 
 for name in *; do
-	if [ -d "$name" ]; then
-    	echo "$name"
+	if [[ -d "$name" ]]; then
+    	echo "package: $name"
 
 		cd "$name"
 
 		version="$( jq -r ".version" package.json )"
 
-		npm unpublish "@daiyam/artifact-${name}@${version}" || true
+		npm unpublish --force "@daiyam/artifact-${name}@${version}" || true
 
 		npm publish
 
