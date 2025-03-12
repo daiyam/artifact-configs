@@ -19,7 +19,7 @@ for name in *; do
 
 		npm unpublish --force "@daiyam/artifact-${name}@${version}" || true
 
-		npm publish
+		npm publish || true
 
 		cd ..
 	fi
