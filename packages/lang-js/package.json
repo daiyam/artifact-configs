@@ -1,13 +1,13 @@
 {
-	"name": "@daiyam/artifact-base",
+	"name": "@daiyam/artifact-lang-js",
 	"version": "0.5.0",
-	"description": "The base configuration for my projects",
+	"description": "The base configuration for my javascript projects",
 	"author": {
 		"name": "Baptiste Augrain",
 		"email": "daiyam@zokugun.org"
 	},
 	"license": "MIT",
-	"homepage": "https://github.com/daiyam/artifact-configs/tree/master/packages/base",
+	"homepage": "https://github.com/daiyam/artifact-configs/tree/master/packages/lang-js",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/daiyam/artifact-configs.git"

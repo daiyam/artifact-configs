@@ -1,0 +1,16 @@
+{
+	"scripts": {
+		"commit": "cz",
+		"prepare": "husky; fixpack || true"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"@commitlint/cli": "^19.7.1",
+		"@commitlint/config-conventional": "^19.7.1",
+		"commitizen": "^4.3.1",
+		"fixpack": "^4.0.0",
+		"husky": "^9.1.7",
+		"lint-staged": "^15.4.3"
+	},
+	"keywords": []
+}

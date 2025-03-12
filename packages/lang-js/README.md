@@ -1,10 +1,10 @@
-[@daiyam/artifact-base](https://github.com/daiyam/artifact-configs/tree/master/packages/base)
-=============================================================================================
+[@daiyam/artifact-lang-js](https://github.com/daiyam/artifact-configs/tree/master/packages/lang-js)
+===================================================================================================
 
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
-[![NPM Version](https://img.shields.io/npm/v/@daiyam/artifact-base.svg?colorB=green)](https://www.npmjs.com/package/@daiyam/artifact-base)
+[![NPM Version](https://img.shields.io/npm/v/@daiyam/artifact-lang-js.svg?colorB=green)](https://www.npmjs.com/package/@daiyam/artifact-lang-js)
 
-The base configuration for my projects.
+The base configuration for my javascript projects.
 
 Getting Started
 ---------------
@@ -13,7 +13,7 @@ Getting Started
 mkdir myproject
 cd myproject
 npm init -y
-artifact add @daiyam/base
+artifact add @daiyam/lang-js
 ```
 
 Dependencies
