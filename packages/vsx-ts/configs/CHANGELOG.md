@@ -1,4 +1,4 @@
 # Changelog
 
-## v0.1.0 | 2022-01-01
+## v0.1.0 | #[[date.YYYY-MM-DD]]
 - initial release
