@@ -1,0 +1,19 @@
+{
+	"name": "@daiyam/artifact-npm-zokugun",
+	"version": "0.1.0",
+	"description": "The configuration to have me as the author of the created node module.",
+	"author": {
+		"name": "Baptiste Augrain",
+		"email": "daiyam@zokugun.org"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/daiyam/artifact-configs/tree/master/packages/npm-zokugun",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/daiyam/artifact-configs.git"
+	},
+	"bugs": {
+		"url": "https://github.com/daiyam/artifact-configs/issues"
+	},
+	"keywords": []
+}
