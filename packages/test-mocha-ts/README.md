@@ -13,7 +13,7 @@ Getting Started
 mkdir myproject
 cd myproject
 npm init -y
-artifact add @daiyam/base @daiyam/lang-ts @daiyam/npm-ts @daiyam/test-mocha-ts
+artifact add @daiyam/lang-js @daiyam/lang-ts @daiyam/npm-ts @daiyam/test-mocha-ts
 ```
 
 License
