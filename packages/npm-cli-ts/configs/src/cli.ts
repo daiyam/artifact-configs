@@ -1,10 +1,12 @@
 import { Command } from 'commander';
 import pkg from '../package.json';
-import { hello } from './commands/hello';
+import { hello } from './commands/hello.js';
 
 const program = new Command();
 
-program.version(pkg.version);
+program
+	.version(pkg.version, '-v, --version')
+	.description(pkg.description);
 
 program
 	.command('hello')
