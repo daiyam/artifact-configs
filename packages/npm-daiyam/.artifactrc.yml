@@ -1,0 +1,6 @@
+update:
+  '*':
+    update: false
+
+  .github/FUNDING.yml:
+    update: true
