@@ -120,7 +120,8 @@
 			"error",
 			{
 				"replacements": {
-					"args": false
+					"args": false,
+					"pkg": false
 				}
 			}
 		]
