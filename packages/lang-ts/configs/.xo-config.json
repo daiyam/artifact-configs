@@ -121,6 +121,8 @@
 			{
 				"replacements": {
 					"args": false,
+					"err": false,
+					"func": false,
 					"pkg": false
 				}
 			}
