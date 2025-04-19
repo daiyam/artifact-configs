@@ -15,9 +15,13 @@ jobs:
       - name: Publish to Open VSX Registry
         uses: HaaLeo/publish-vscode-extension@v2
         with:
-          pat: ${{ secrets.OPEN_VSX_TOKEN }}
-      - name: Publish to Visual Studio Marketplace
+          pat: ${{ secrets.TOKEN_OPENVSX }}
+          skipDuplicate: true
+        if: env.PUBLISH_OPENVSX == 'yes'
+      - name: Publish to Visual Studio Code Marketplace
         uses: HaaLeo/publish-vscode-extension@v2
         with:
-          pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
+          pat: ${{ secrets.TOKEN_VSCODE }}
           registryUrl: https://marketplace.visualstudio.com
+          skipDuplicate: true
+        if: env.PUBLISH_VSCODE == 'yes'
