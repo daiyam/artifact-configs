@@ -1,0 +1,6 @@
+install:
+  tsconfig.base.json:
+    remove: true
+
+  tsconfig.json:
+    overwrite: true
