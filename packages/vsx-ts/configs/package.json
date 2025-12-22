@@ -32,16 +32,26 @@
 		"configuration": {
 			"title": "EXT_DISPLAY_NAME",
 			"properties": {
+				"EXT_CFG_KEY.enabled": {
+					"title": "Enabled",
+					"type": "boolean",
+					"default": true,
+					"description": "Controls whether to ... or not.",
+					"scope": "application",
+					"tags": [
+						"KEYWORD"
+					]
+				},
 				"EXT_CFG_KEY.notification": {
 					"type": "string",
-					"description": "Display notification when a new version is installed",
-					"default": "minor",
 					"enum": [
 						"none",
 						"major",
 						"minor",
 						"patch"
 					],
+					"default": "minor",
+					"description": "Display notification when a new version is installed",
 					"enumDescriptions": [
 						"The new version notification won't be shown anymore.",
 						"The new version notification will be shown only with a new major version",
@@ -49,7 +59,9 @@
 						"The new version notification will always be shown"
 					],
 					"scope": "application",
-					"tags": []
+					"tags": [
+						"KEYWORD"
+					]
 				}
 			}
 		}

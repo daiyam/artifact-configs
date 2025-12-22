@@ -1,7 +1,9 @@
 import vscode from 'vscode';
 import pkg from '../package.json';
+import { DocumentManager } from './document-manager.js';
+import { CONFIG_KEY, setupSettings } from './utils/settings.js';
+import { hello } from './commands/hello.js';
 
-const CONFIG_KEY = 'EXT_CFG_KEY';
 const VERSION_KEY = 'version';
 
 function setup(): void { // {{{
@@ -15,7 +17,7 @@ async function showWhatsNewMessage(version: string) { // {{{
 	}];
 
 	const result = await vscode.window.showInformationMessage(
-		`EXT_DISPLAY_NAME has been updated to v${version} — check out what's new!`,
+		`${pkg.displayName} has been updated to v${version} — check out what's new!`,
 		...actions,
 	);
 
@@ -36,6 +38,8 @@ async function showWhatsNewMessage(version: string) { // {{{
 } // }}}
 
 export async function activate(context: vscode.ExtensionContext): Promise<void> { // {{{
+	await setupSettings(context);
+
 	const previousVersion = context.globalState.get<string>(VERSION_KEY);
 	const currentVersion = pkg.version;
 
@@ -64,11 +68,11 @@ export async function activate(context: vscode.ExtensionContext): Promise<void> 
 		}
 	}
 
-	setup();
+	const documentManager = new DocumentManager();
 
-	vscode.workspace.onDidChangeConfiguration((event) => {
-		if(event.affectsConfiguration(CONFIG_KEY)) {
-			setup();
-		}
-	});
+	documentManager.activate(context);
+
+	context.subscriptions.push(
+		vscode.commands.registerCommand(`${CONFIG_KEY}.hello`, hello),
+	);
 } // }}}
