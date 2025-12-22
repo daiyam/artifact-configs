@@ -3,3 +3,6 @@ update:
     filter:
       - scripts
       - devDependencies
+
+variants:
+  root: 20
