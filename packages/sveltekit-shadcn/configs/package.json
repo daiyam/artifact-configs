@@ -1,0 +1,5 @@
+{
+	"scripts": {
+		"shadcn:component:add": "npx shadcn-svelte@latest add"
+	}
+}

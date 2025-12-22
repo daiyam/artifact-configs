@@ -1,0 +1,19 @@
+{
+	"name": "@daiyam/artifact-sveltekit-shadcn",
+	"version": "0.0.0",
+	"description": "",
+	"author": {
+		"name": "Baptiste Augrain",
+		"email": "daiyam@zokugun.org"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/daiyam/artifact-configs/tree/master/packages/sveltekit-shadcn",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/daiyam/artifact-configs.git"
+	},
+	"bugs": {
+		"url": "https://github.com/daiyam/artifact-configs/issues"
+	},
+	"keywords": []
+}
