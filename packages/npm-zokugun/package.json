@@ -1,6 +1,6 @@
 {
 	"name": "@daiyam/artifact-npm-zokugun",
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"description": "The configuration to have me as the author of the created node module.",
 	"author": {
 		"name": "Baptiste Augrain",
