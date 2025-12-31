@@ -1,8 +1,8 @@
-[PACKAGE_NAME](https://github.com/daiyam/REPOSITORY_NAME)
+[#[[package.json.name]]](https://github.com/daiyam/REPOSITORY_NAME)
 =========================================================
 
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
-[![NPM Version](https://img.shields.io/npm/v/PACKAGE_NAME.svg?colorB=green)](https://www.npmjs.com/package/PACKAGE_NAME)
+[![NPM Version](https://img.shields.io/npm/v/#[[package.json.name]].svg?colorB=green)](https://www.npmjs.com/package/#[[package.json.name]])
 [![Donation](https://img.shields.io/badge/donate-ko--fi-green)](https://ko-fi.com/daiyam)
 [![Donation](https://img.shields.io/badge/donate-liberapay-green)](https://liberapay.com/daiyam/donate)
 [![Donation](https://img.shields.io/badge/donate-paypal-green)](https://paypal.me/daiyam99)
@@ -14,10 +14,10 @@ Getting Started
 
 With [node](http://nodejs.org) previously installed:
 
-	npm install PACKAGE_NAME
+	npm install #[[package.json.name]]
 
 ```typescript
-import {  } from 'PACKAGE_NAME'
+import {  } from '#[[package.json.name]]'
 
 ```
 
