@@ -4,6 +4,7 @@
 		"xo": "0.60.0"
 	},
 	"scripts": {
-		"lint": "xo"
+		"lint": "xo",
+		"lint:fix": "xo --fix"
 	}
 }
