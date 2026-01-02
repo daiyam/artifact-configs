@@ -18,7 +18,7 @@
 	"scripts": {
 		"commit": "cz",
 		"prepare": "husky",
-		"release": "npm login; lerna publish"
+		"release": "npm login && lerna publish"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^19.7.1",
