@@ -2,7 +2,7 @@
 	"main": "lib/index.js",
 	"scripts": {
 		"compile": "tsc -p src",
-		"prepublishOnly": "npm run compile",
+		"prepack": "npm run compile",
 		"watch:source": "tsc-watch -p src"
 	},
 	"devDependencies": {
