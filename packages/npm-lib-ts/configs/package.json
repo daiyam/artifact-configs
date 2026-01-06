@@ -1,0 +1,13 @@
+{
+	"type": "module",
+	"main": "lib/cjs/index.cjs",
+	"module": "lib/esm/index.js",
+	"scripts": {
+		"build": "tsdown",
+		"clean": "rimraf lib",
+		"prepack": "npm run build"
+	},
+	"devDependencies": {
+		"tsdown": "^0.12.9"
+	}
+}
