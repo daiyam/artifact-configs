@@ -2,3 +2,5 @@ update:
   test/*.ts:
     missing: false
     update: false
+  vitest.config.ts:
+    update: false
