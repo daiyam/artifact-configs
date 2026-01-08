@@ -3,11 +3,12 @@
 	"main": "lib/cjs/index.cjs",
 	"module": "lib/esm/index.js",
 	"scripts": {
-		"build": "tsdown",
-		"clean": "rimraf lib",
+		"build": "npm run clean && npm run build:lib",
+		"build:lib": "tsc-leda generate",
+		"build:package": "tsc-leda update-package",
 		"prepack": "npm run build"
 	},
 	"devDependencies": {
-		"tsdown": "^0.12.9"
+		"@zokugun/tsc-leda": "^0.1.0"
 	}
 }
