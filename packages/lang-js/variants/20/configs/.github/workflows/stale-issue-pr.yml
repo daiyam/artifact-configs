@@ -14,17 +14,12 @@ jobs:
           days-before-close: 30
           operations-per-run: 1024
           stale-issue-message: >
-            This issue has been automatically marked as stale. **If this issue
-            is still affecting you, please leave any comment**, and we'll keep
-            it open. If you have any new additional information, please include
-            it with your comment!
+            This issue has been automatically marked as stale. **If this issue is still affecting you, please leave any comment**, and we'll keep it open. If you have any new additional information, please include it with your comment!
           close-issue-message: >
-            This issue has been closed due to inactivity, and will not be
-            monitored. If this is a bug and you can reproduce this issue, please
-            open a new issue.
+            This issue has been closed due to inactivity, and will not be monitored. If this is a bug and you can reproduce this issue, please open a new issue.
           stale-issue-label: S-stale
           close-issue-label: S-abandoned
-          stale-pr-message: |
+          stale-pr-message: >
             This PR has been automatically marked as stale.
           close-pr-message: >
             This PR has been closed due to inactivity, and will not be monitored.
