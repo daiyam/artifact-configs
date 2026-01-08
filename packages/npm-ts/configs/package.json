@@ -1,9 +1,9 @@
 {
 	"main": "lib/index.js",
 	"scripts": {
-		"compile": "tsc -p src",
+		"compile:src": "tsc -p src",
 		"prepack": "npm run compile",
-		"watch:source": "tsc-watch -p src"
+		"watch:src": "tsc-watch -p src"
 	},
 	"devDependencies": {
 		"tsc-watch": "^6.3.0"
