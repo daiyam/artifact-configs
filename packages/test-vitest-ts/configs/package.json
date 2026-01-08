@@ -1,7 +1,10 @@
 {
 	"scripts": {
+		"clean": "rimraf .test",
+		"compile:test": "tsc -p test",
 		"test": "vitest run",
-		"watch:test": "vitest"
+		"test:watch": "vitest",
+		"watch:test": "tsc-watch -p test"
 	},
 	"devDependencies": {
 		"@types/fs-extra": "^11.0.4",
