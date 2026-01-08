@@ -1,2 +1,6 @@
+!lib/**/*.js
 !lib/**/*.cjs
+!lib/**/*.mjs
+!lib/**/*.d.ts
 !lib/**/*.d.cts
+!lib/**/*.d.mts
