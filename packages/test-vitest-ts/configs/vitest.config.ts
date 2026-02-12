@@ -6,6 +6,7 @@ export default defineConfig({
 	},
 	test: {
 		environment: 'node',
+		include: ['./test/**/*.test.ts'],
 		reporters: 'dot',
 		setupFiles: ['./test/vitest.setup.ts'],
 		typecheck: {
