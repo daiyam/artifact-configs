@@ -10,6 +10,6 @@
 		"prepack": "npm run build"
 	},
 	"devDependencies": {
-		"@zokugun/tsc-leda": "^0.1.4"
+		"@zokugun/tsc-leda": "^0.1.5"
 	}
 }
