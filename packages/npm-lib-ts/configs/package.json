@@ -1,7 +1,7 @@
 {
 	"type": "module",
 	"main": "lib/cjs/index.cjs",
-	"module": "lib/esm/index.js",
+	"module": "lib/esm/index.mjs",
 	"scripts": {
 		"build": "npm run clean && npm run build:lib",
 		"build:lib": "tsc-leda generate",
