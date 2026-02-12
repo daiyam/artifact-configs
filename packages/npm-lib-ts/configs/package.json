@@ -6,6 +6,7 @@
 		"build": "npm run clean && npm run build:lib",
 		"build:lib": "tsc-leda generate",
 		"build:package": "tsc-leda update-package",
+		"clean": "rimraf .src",
 		"prepack": "npm run build"
 	},
 	"devDependencies": {
