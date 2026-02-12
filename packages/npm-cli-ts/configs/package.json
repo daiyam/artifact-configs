@@ -7,16 +7,17 @@
 		"#[[package.json.name]]": "bin/#[[package.json.name]]"
 	},
 	"scripts": {
-		"postinstall": "patch-package"
+		"postinstall": "patch-package",
+		"prepack": "npm run compile:src"
 	},
 	"dependencies": {
 		"ansi-colors": "^4.1.3",
-		"cli-spinners": "^3.2.0",
-		"commander": "^13.1.0",
+		"cli-spinners": "^3.4.0",
+		"commander": "^14.0.3",
 		"enquirer": "^2.4.1",
-		"execa": "^9.5.2",
-		"log-update": "^7.0.2",
-		"patch-package": "^8.0.0",
-		"trash": "^9.0.0"
+		"execa": "^9.6.1",
+		"log-update": "^7.1.0",
+		"patch-package": "^8.0.1",
+		"trash": "^10.1.0"
 	}
 }
