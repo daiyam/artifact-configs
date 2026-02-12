@@ -1,6 +1,6 @@
 {
 	"name": "@daiyam/artifact-lang-js",
-	"version": "0.8.5",
+	"version": "0.9.0",
 	"description": "The base configuration for my javascript projects",
 	"author": {
 		"name": "Baptiste Augrain",

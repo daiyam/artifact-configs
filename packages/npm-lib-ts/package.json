@@ -1,6 +1,6 @@
 {
 	"name": "@daiyam/artifact-npm-lib-ts",
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"description": "The configuration to create a lib",
 	"author": {
 		"name": "Baptiste Augrain",

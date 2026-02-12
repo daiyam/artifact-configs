@@ -1,6 +1,6 @@
 {
 	"name": "@daiyam/artifact-vsx-ts",
-	"version": "0.8.1",
+	"version": "0.8.2",
 	"description": "The configuration to create Visual Studio extensions and publish them on Visual Studio Marketplace and Open VSX Registry.",
 	"author": {
 		"name": "Baptiste Augrain",
