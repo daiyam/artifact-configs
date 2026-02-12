@@ -20,7 +20,6 @@ Dependencies
 ------------
 
 - [commitlint](https://github.com/conventional-changelog/commitlint)
-- [commitizen](https://github.com/commitizen/cz-cli)
 - [fixpack](https://github.com/henrikjoreteg/fixpack)
 - [husky](https://github.com/typicode/husky)
 - [lint-staged](https://github.com/okonet/lint-staged)
