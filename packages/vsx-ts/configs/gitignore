@@ -1,4 +1,4 @@
-lib
-out
-.vscode-test/
-*.vsix
+/lib/
+/out/
+/.vscode-test/
+/*.vsix
