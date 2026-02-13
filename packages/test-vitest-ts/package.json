@@ -1,6 +1,6 @@
 {
 	"name": "@daiyam/artifact-test-vitest-ts",
-	"version": "0.2.3",
+	"version": "0.2.4",
 	"description": "The configuration to do unit testing with vitest and typescript.",
 	"author": {
 		"name": "Baptiste Augrain",
