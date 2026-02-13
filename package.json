@@ -16,17 +16,15 @@
 		"url": "https://github.com/daiyam/artifact-configs/issues"
 	},
 	"scripts": {
-		"commit": "cz",
 		"prepare": "husky",
 		"release": "npm login && lerna publish"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^19.7.1",
-		"@commitlint/config-conventional": "^19.7.1",
-		"@commitlint/config-lerna-scopes": "^19.7.0",
-		"commitizen": "^4.3.1",
+		"@commitlint/cli": "^20.4.1",
+		"@commitlint/config-conventional": "^20.4.1",
+		"@commitlint/config-lerna-scopes": "^20.4.0",
 		"fixpack": "^4.0.0",
 		"husky": "^9.1.7",
-		"lerna": "^8.1.9"
+		"lerna": "^9.0.4"
 	}
 }
