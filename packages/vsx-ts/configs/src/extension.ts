@@ -1,7 +1,7 @@
 import vscode from 'vscode';
 import pkg from '../package.json';
 import { DocumentManager } from './document-manager.js';
-import { CONFIG_KEY, setupSettings } from './utils/settings.js';
+import { CONFIG_KEY, setupSettings } from './settings.js';
 import { hello } from './commands/hello.js';
 
 const VERSION_KEY = 'version';

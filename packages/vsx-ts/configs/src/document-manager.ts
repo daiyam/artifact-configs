@@ -1,6 +1,6 @@
 import * as vscode from 'vscode';
 import { Disposable } from './utils/disposable.js';
-import { CONFIG_KEY, getDebugChannel } from './utils/settings.js';
+import { CONFIG_KEY, getDebugChannel } from './settings.js';
 
 export class DocumentManager implements vscode.Disposable {
 	private readonly disposable: Disposable = new Disposable();

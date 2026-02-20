@@ -1,4 +1,4 @@
-import { getDebugChannel } from '../utils/settings.js';
+import { getDebugChannel } from '../settings.js';
 
 export async function hello(): Promise<void> {
 	const channel = getDebugChannel(true)!;
