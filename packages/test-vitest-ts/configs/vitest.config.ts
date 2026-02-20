@@ -12,5 +12,9 @@ export default defineConfig({
 		typecheck: {
 			enabled: true,
 		},
+		coverage: {
+			reporter: ['html'],
+			reportsDirectory: './coverage',
+		},
 	},
 });

@@ -2,14 +2,17 @@
 	"scripts": {
 		"clean": "rimraf .test",
 		"compile:test": "tsc -p test",
-		"test": "vitest run",
+		"test": "vitest run --reporter tree",
+		"test:coverage": "vitest run --reporter tree --coverage --coverage.reporter text",
+		"test:ui": "vitest --ui --coverage",
 		"test:watch": "vitest",
 		"watch:test": "tsc-watch -p test"
 	},
 	"devDependencies": {
-		"@types/fs-extra": "^11.0.4",
-		"fs-extra": "^11.3.3",
-		"globby": "^16.1.0",
-		"vitest": "^4.0.16"
+		"@vitest/coverage-v8": "^4.0.18",
+		"@vitest/ui": "^4.0.18",
+		"@zokugun/fs-extra-plus": "^0.3.3",
+		"globby": "^16.1.1",
+		"vitest": "^4.0.18"
 	}
 }
