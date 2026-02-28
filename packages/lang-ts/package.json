@@ -1,6 +1,6 @@
 {
 	"name": "@daiyam/artifact-lang-ts",
-	"version": "0.6.3",
+	"version": "0.6.4",
 	"description": "The configuration for my typescript projects",
 	"author": {
 		"name": "Baptiste Augrain",
