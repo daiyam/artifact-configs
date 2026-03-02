@@ -13,11 +13,17 @@
 	"dependencies": {
 		"ansi-colors": "^4.1.3",
 		"cli-spinners": "^3.4.0",
-		"commander": "^14.0.3",
+		"commander": "^13.1.0",
 		"enquirer": "^2.4.1",
 		"execa": "^9.6.1",
-		"log-update": "^7.1.0",
+		"log-update": "^7.2.0",
 		"patch-package": "^8.0.1",
 		"trash": "^10.1.0"
+	},
+	"overrides": {
+		"log-update": {
+			"slice-ansi": "^7.1.2",
+			"wrap-ansi": "^9.0.2"
+		}
 	}
 }
