@@ -1,5 +1,4 @@
-import c from 'ansi-colors';
-import enquirer from 'enquirer';
+import { c, enquirer } from '@zokugun/cli-utils';
 
 export async function hello(name: string | undefined): Promise<void> {
 	if(!name) {

@@ -1,11 +1,8 @@
+import logger from '@zokugun/cli-utils/logger';
 import { type CliOptions } from './types.js';
-import * as logger from './utils/logger.js';
 
 export async function run(options: CliOptions): Promise<void> {
-	const start = Date.now();
+	logger.begin();
 
-
-	const duration = Math.ceil((Date.now() - start) / 1000);
-
-	logger.finish(duration);
+	logger.finish();
 }
