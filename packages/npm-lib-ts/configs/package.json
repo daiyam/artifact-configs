@@ -7,7 +7,8 @@
 		"build:lib": "tsc-leda generate",
 		"build:package": "tsc-leda update-package",
 		"clean": "rimraf .src",
-		"prepack": "npm run build"
+		"prepack": "npm run build",
+		"watch:build": "tsc-watch -p src --onSuccess 'npm run build'"
 	},
 	"devDependencies": {
 		"@zokugun/tsc-leda": "^0.1.5"
