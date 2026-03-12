@@ -8,7 +8,8 @@
 	},
 	"scripts": {
 		"build": "npm run clean && npm run compile:src",
-		"prepack": "npm run build"
+		"prepack": "npm run build",
+		"watch:build": "tsc-watch -p src --onSuccess 'npm run build'"
 	},
 	"dependencies": {
 		"@zokugun/cli-utils": "^0.1.0",
