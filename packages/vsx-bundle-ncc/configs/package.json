@@ -1,6 +1,7 @@
 {
 	"scripts": {
-		"bundle": "ncc build out/extension --out lib"
+		"bundle": "ncc build out/extension --out lib",
+		"clean": "rimraf lib"
 	},
 	"devDependencies": {
 		"@vercel/ncc": "^0.38.3"
