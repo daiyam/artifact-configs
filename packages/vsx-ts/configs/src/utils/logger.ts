@@ -1,16 +1,14 @@
 import { inspect } from 'node:util';
 import { isPrimitive } from '@zokugun/is-it-type';
 import vscode, { window } from 'vscode';
-import { CONFIG_KEY } from '../settings.js';
+import { CONFIG_KEY, EXTENSION_NAME } from './settings.js';
 
 let $channel: vscode.OutputChannel | null = null;
 
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export const Logger = {
 	debug(...args: unknown[]): void {
-		if($channel) {
-			$channel.appendLine(`[debug] ${args.map(toString).join(' ')}`);
-		}
+		$channel?.appendLine(`[debug] ${args.map(toString).join(' ')}`);
 	},
 	error(...args: unknown[]): void {
 		const config = vscode.workspace.getConfiguration(CONFIG_KEY);
@@ -19,26 +17,22 @@ export const Logger = {
 		if(Boolean($channel) || showErrorAlert) {
 			const output = args.map(toString).join(' ');
 
-			if($channel) {
-				$channel.appendLine(`[error] ${output}`);
-			}
+			$channel?.appendLine(`[error] ${output}`);
 
 			if(showErrorAlert) {
-				void window.showErrorMessage(`VSIX Manager: ${output}`);
+				void window.showErrorMessage(`${EXTENSION_NAME}: ${output}`);
 			}
 		}
 	},
 	info(...args: unknown[]): void {
-		if($channel) {
-			$channel.appendLine(`[info] ${args.map(toString).join(' ')}`);
-		}
+		$channel?.appendLine(`[info] ${args.map(toString).join(' ')}`);
 	},
 	setup(show: boolean = false): void {
 		const config = vscode.workspace.getConfiguration(CONFIG_KEY);
 		const debug = config.get<boolean>('debug') ?? false;
 
 		if(debug) {
-			$channel ||= vscode.window.createOutputChannel('VSIX Manager');
+			$channel ||= vscode.window.createOutputChannel(EXTENSION_NAME);
 		}
 
 		if(show) {
