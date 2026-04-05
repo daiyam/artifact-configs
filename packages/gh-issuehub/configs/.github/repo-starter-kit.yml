@@ -8,6 +8,6 @@ migrate:
     enhancement: T-improvement
     github_actions: A-ci
     "good first issue": M-awesome
-    "needs more info ℹ️": S-needs-info
+    "needs more info": S-needs-info
     question: T-question
     stale: S-stale
