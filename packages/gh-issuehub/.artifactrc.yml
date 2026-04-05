@@ -1,3 +1,5 @@
 update:
-  '*':
-    update: false
+  "*.md":
+    overwrite: true
+  .github/**/*.yml:
+    overwrite: true
