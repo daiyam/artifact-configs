@@ -1,11 +1,18 @@
 update:
+  CHANGELOG.md:
+    update: false
   package.json:
     filter:
       - main
       - scripts
       - devDependencies
+  src/document-manager.ts:
+    overwrite: true
   src/extension.ts:
     missing: false
     update: false
-  CHANGELOG.md:
+  src/commands/*:
+    missing: false
     update: false
+  src/utils/*:
+    overwrite: true
