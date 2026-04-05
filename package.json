@@ -16,6 +16,7 @@
 		"url": "https://github.com/daiyam/artifact-configs/issues"
 	},
 	"scripts": {
+		"npm:publish:force": "lerna publish from-package",
 		"prepare": "husky",
 		"release": "npm login && lerna publish"
 	},
