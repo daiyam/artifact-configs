@@ -5,12 +5,7 @@
 		"lint:fix": "xo --fix"
 	},
 	"devDependencies": {
-		"typescript": "^5.7.3",
+		"typescript": "5.9.3",
 		"xo": "0.60.0"
-	},
-	"overrides": {
-		"terser-webpack-plugin": {
-			"serialize-javascript": "^7.0.3"
-		}
 	}
 }
