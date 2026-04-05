@@ -15,6 +15,10 @@ export let WORKSPACE_STORAGE: string | undefined;
 
 let $context: vscode.ExtensionContext | null = null;
 
+export function getContext(): vscode.ExtensionContext {
+	return $context!;
+}
+
 export async function setupSettings(context: vscode.ExtensionContext): Promise<Result<void, string>> {
 	EXTENSION_NAME = context.extension.packageJSON.displayName as string;
 	EXTENSION_ID = context.extension.id;
