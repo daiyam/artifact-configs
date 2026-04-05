@@ -38,9 +38,11 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Version
-      description: Paste the output the version here.
+      label: Environment
+      description: Paste the output of `npx envinfo --system --binaries` here.
       render: text
+      placeholder: |-
+        System, Binaries
     validations:
       required: true
   - type: markdown
@@ -51,7 +53,8 @@ body:
         > Use these links to review the existing [Discussions](https://github.com/REPOSITORY_SLUG/discussions?discussions_q=) and [Issues](https://github.com/REPOSITORY_SLUG/issues?q=sort%3Areactions-desc).
   - type: checkboxes
     attributes:
-      label: "I acknowledge that:"
+      label: Validations
+      description: "Before submitting the issue, please make sure you acknowledge that:"
       options:
         - label: I have reviewed the FAQ and confirm that my issue is NOT among them.
           required: true
@@ -59,3 +62,11 @@ body:
           required: true
         - label: I have checked the "Preview" tab on all text fields to ensure that everything looks right, and have wrapped all configuration and code in code blocks with a group of three backticks (` ``` `) on separate lines.
           required: true
+  - type: checkboxes
+    attributes:
+      label: Contributions
+      description: |-
+        Please note that Open Source projects are maintained by volunteers, where your cases might not be always relevant to the others. It would make things move faster if you could help investigate and propose solutions.
+      options:
+        - label: I am willing to submit a PR to fix this issue
+
