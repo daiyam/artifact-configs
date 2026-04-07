@@ -40,26 +40,12 @@ body:
     validations:
       required: true
 
-  - type: input
-    attributes:
-      label: Editor Name & Version
-      placeholder: VSCode v1.110.0
-    validations:
-      required: true
-
-  - type: input
-    attributes:
-      label: Extension Version
-      placeholder: v0.11.0
-    validations:
-      required: true
-
   - type: textarea
     attributes:
       label: Environment
-      description: Paste the output of `npx envinfo --system` here.
+      description: Paste the output of `npx envinfo --system --binaries --npmPackages` here.
       render: text
-      placeholder: System
+      placeholder: System, Binaries, npmPackages
     validations:
       required: true
 
