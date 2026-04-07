@@ -2,7 +2,7 @@
 	"name": "EXT_NAME",
 	"displayName": "EXT_DISPLAY_NAME",
 	"engines": {
-		"vscode": "^1.23.0"
+		"vscode": "^1.56.0"
 	},
 	"main": "./lib/index.js",
 	"browser": "./lib/index.js",
@@ -20,14 +20,9 @@
 		"@zokugun/xtry": "^0.10.1"
 	},
 	"devDependencies": {
-		"@types/vscode": "^1.23.0",
-		"release-it": "^19.2.4",
-		"tsc-watch": "^6.3.0"
-	},
-	"overrides": {
-		"release-it": {
-			"undici": "^6.24.1"
-		}
+		"@types/vscode": "1.56.0",
+		"release-it": "20.0.0-1",
+		"tsc-watch": "6.3.1"
 	},
 	"activationEvents": [
 		"onStartupFinished"
