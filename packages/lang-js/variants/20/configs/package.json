@@ -1,8 +1,8 @@
 {
 	"scripts": {
-		"ci:pinact": "PINACT_MIN_AGE=7 pinact run",
-		"ci:zizmor": "zizmor .",
-		"ci:zizmor:fix": "zizmor . --fix=all",
+		"ci:lint": "zizmor .",
+		"ci:lint:fix": "zizmor . --fix=all",
+		"ci:update": "PINACT_MIN_AGE=7 pinact run",
 		"deps:update": "taze",
 		"prepare": "husky; fixpack || true"
 	},
