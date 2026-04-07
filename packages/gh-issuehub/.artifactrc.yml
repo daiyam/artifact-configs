@@ -3,3 +3,6 @@ update:
     overwrite: true
   .github/**/*.yml:
     overwrite: true
+
+variables:
+  REPOSITORY_SLUG: package.json.repository.url.split('/').slice(-2).join('/').replace('.git', '')
