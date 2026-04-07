@@ -4,7 +4,7 @@
 	},
 	"type": "module",
 	"bin": {
-		"#[[package.json.name]]": "bin/#[[package.json.name]]"
+		"#[[vars.BINARY_NAME]]": "bin/#[[vars.BINARY_NAME]]"
 	},
 	"scripts": {
 		"build": "npm run clean && npm run compile:src",
