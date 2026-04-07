@@ -1,10 +1,2 @@
-update:
-  package.json:
-    filter:
-      - scripts
-      - devDependencies
-  .github/**/*.yml:
-    overwrite: true
-
 variants:
   root: 20
