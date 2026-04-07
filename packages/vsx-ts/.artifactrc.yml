@@ -6,6 +6,8 @@ update:
       - main
       - scripts
       - devDependencies
+  .github/**/*.yml:
+    overwrite: true
   src/document-manager.ts:
     overwrite: true
   src/extension.ts:
