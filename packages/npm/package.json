@@ -1,6 +1,6 @@
 {
 	"name": "@daiyam/artifact-npm",
-	"version": "0.7.4",
+	"version": "0.7.5",
 	"description": "The configuration to create node modules and publish them on npm.",
 	"author": {
 		"name": "Baptiste Augrain",
