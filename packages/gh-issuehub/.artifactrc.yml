@@ -3,6 +3,8 @@ update:
     overwrite: true
   .github/**/*.yml:
     overwrite: true
+  .github/repo-starter-kit.yml:
+    update: false
 
 variables:
   REPOSITORY_SLUG: package.json.repository.url.split('/').slice(-2).join('/').replace('.git', '')
