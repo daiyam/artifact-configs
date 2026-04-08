@@ -2,9 +2,11 @@
 	"scripts": {
 		"ci:lint": "zizmor .",
 		"ci:lint:fix": "zizmor . --fix=all",
-		"ci:update": "PINACT_MIN_AGE=7 pinact run",
-		"deps:update": "taze",
-		"prepare": "husky; fixpack || true"
+		"lint:all": "fixpack && npm run ci:lint",
+		"prepare": "husky; fixpack || true",
+		"update:artifacts": "artifact update",
+		"update:ci": "PINACT_MIN_AGE=7 pinact run",
+		"update:deps": "taze"
 	},
 	"dependencies": {},
 	"devDependencies": {
