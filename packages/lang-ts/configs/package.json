@@ -2,7 +2,7 @@
 	"scripts": {
 		"clean": "rimraf lib",
 		"lint": "xo",
-		"lint:all": "npm run lint",
+		"lint:all": "true && npm run lint",
 		"lint:fix": "xo --fix"
 	},
 	"devDependencies": {
