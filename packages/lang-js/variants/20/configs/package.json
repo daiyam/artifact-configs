@@ -1,8 +1,9 @@
 {
 	"scripts": {
+		"audit:fix": "npm audit fix --min-release-age=0",
 		"ci:lint": "zizmor .",
 		"ci:lint:fix": "zizmor . --fix=all",
-		"lint:all": "fixpack && npm run ci:lint",
+		"lint:all": "fixpack && npm audit && npm run ci:lint",
 		"prepare": "husky; fixpack || true",
 		"update:artifacts": "artifact update",
 		"update:ci": "PINACT_MIN_AGE=7 pinact run",
