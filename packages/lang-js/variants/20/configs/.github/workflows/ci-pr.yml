@@ -1,4 +1,4 @@
-name: CI - Pull Request: Build, Test & Lint
+name: "CI - Pull Request: Build, Test & Lint"
 
 on:
   pull_request:
