@@ -2,3 +2,9 @@ update:
   test/*.ts:
     missing: false
     update: false
+
+uninstall:
+  .mocharc.yml:
+    delete: true
+  .test:
+    delete: true
