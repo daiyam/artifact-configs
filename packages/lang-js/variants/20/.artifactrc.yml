@@ -1,7 +1,21 @@
+upsert:
+  .github/**/*.yml:
+    overwrite: true
+
+  .github/workflows/check-pr.yml:
+    rename: ci-pr.yml
+
+  .github/workflows/lock-closed-threads.yml:
+    rename: mod-lock-closed-threads.yml
+
+  .github/workflows/stale-issue-pr.yml:
+    rename: mod-stale-issue-pr.yml
+
+  .lintstagedrc:
+    remove: true
+
 update:
   package.json:
     filter:
       - scripts
       - devDependencies
-  .github/**/*.yml:
-    overwrite: true
