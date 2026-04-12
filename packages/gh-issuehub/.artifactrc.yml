@@ -1,8 +1,14 @@
-update:
+upsert:
   "*.md":
     overwrite: true
+
   .github/**/*.yml:
     overwrite: true
+
+  .github/workflows/close-invalid-issue.yml:
+    rename: mod-close-invalid-issue.yml
+
+update:
   .github/repo-starter-kit.yml:
     update: false
 
