@@ -1,5 +1,7 @@
+upsert:
+  .github/**/*.yml:
+    overwrite: true
+
 update:
   CHANGELOG.md:
     update: false
-  .github/**/*.yml:
-    overwrite: true
