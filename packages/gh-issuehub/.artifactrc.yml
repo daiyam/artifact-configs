@@ -6,7 +6,7 @@ upsert:
     overwrite: true
 
   .github/workflows/close-invalid-issue.yml:
-    rename: mod-close-invalid-issue.yml
+    rename: .github/workflows/mod-close-invalid-issue.yml
 
 update:
   .github/repo-starter-kit.yml:
