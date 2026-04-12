@@ -3,13 +3,13 @@ upsert:
     overwrite: true
 
   .github/workflows/check-pr.yml:
-    rename: ci-pr.yml
+    rename: .github/workflows/ci-pr.yml
 
   .github/workflows/lock-closed-threads.yml:
-    rename: mod-lock-closed-threads.yml
+    rename: .github/workflows/mod-lock-closed-threads.yml
 
   .github/workflows/stale-issue-pr.yml:
-    rename: mod-stale-issue-pr.yml
+    rename: .github/workflows/mod-stale-issue-pr.yml
 
   .lintstagedrc:
     remove: true
