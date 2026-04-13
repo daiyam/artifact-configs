@@ -5,6 +5,12 @@ update:
 
 uninstall:
   .mocharc.yml:
-    delete: true
+    remove: true
   .test:
-    delete: true
+    remove: true
+  .vscode/settings.json:
+    unmerge: true
+  .xo-config.json:
+    unmerge: true
+  package.json:
+    unmerge: true
