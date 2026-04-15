@@ -1,16 +1,18 @@
+$schema: https://raw.githubusercontent.com/zokugun/artifact/v0.6.0/schemas/v1/package.json
+
 upsert:
   "*.md":
-    overwrite: true
+    if_exists: overwrite
 
   .github/**/*.yml:
-    overwrite: true
+    if_exists: overwrite
 
   .github/workflows/close-invalid-issue.yml:
     rename: .github/workflows/mod-close-invalid-issue.yml
 
 update:
   .github/repo-starter-kit.yml:
-    update: false
+    if_exists: skip
 
 variables:
   REPOSITORY_SLUG: package.json.repository.url.split('/').slice(-2).join('/').replace('.git', '')
