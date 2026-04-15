@@ -1,7 +1,7 @@
 upsert:
   .github/**/*.yml:
-    overwrite: true
+    if_exists: overwrite
 
 update:
   CHANGELOG.md:
-    update: false
+    if_exists: skip
