@@ -1,16 +1,22 @@
+$schema: https://raw.githubusercontent.com/zokugun/artifact/v0.6.0/schemas/v1/package.json
+
 update:
   test/*.ts:
-    missing: false
-    update: false
+    if_missing: skip
+    if_exists: skip
 
 uninstall:
   .mocharc.yml:
-    remove: true
+    if_exists: remove
+
   .test:
-    remove: true
+    if_exists: remove
+
   .vscode/settings.json:
-    unmerge: true
+    if_exists: unmerge
+
   .xo-config.json:
-    unmerge: true
+    if_exists: unmerge
+
   package.json:
-    unmerge: true
+    if_exists: unmerge
