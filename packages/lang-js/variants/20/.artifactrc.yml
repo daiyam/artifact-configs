@@ -1,6 +1,8 @@
+$schema: https://raw.githubusercontent.com/zokugun/artifact/v0.6.0/schemas/v1/package.json
+
 upsert:
   .github/**/*.yml:
-    overwrite: true
+    if_exists: overwrite
 
   .github/workflows/check-pr.yml:
     rename: .github/workflows/ci-pr.yml
@@ -12,7 +14,7 @@ upsert:
     rename: .github/workflows/mod-stale-issue-pr.yml
 
   .lintstagedrc:
-    remove: true
+    if_exists: remove
 
 update:
   package.json:
