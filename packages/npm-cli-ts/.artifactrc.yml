@@ -1,2 +1,4 @@
+$schema: https://raw.githubusercontent.com/zokugun/artifact/v0.6.0/schemas/v1/package.json
+
 variables:
   BINARY_NAME: package.json.name.split('/').at(-1)
