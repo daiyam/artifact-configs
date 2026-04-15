@@ -1,6 +1,8 @@
+$schema: https://raw.githubusercontent.com/zokugun/artifact/v0.6.0/schemas/v1/package.json
+
 update:
   test/*.ts:
-    missing: false
-    update: false
+    if_missing: skip
+    if_exists: skip
   vitest.config.ts:
-    update: false
+    if_exists: skip
