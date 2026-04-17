@@ -1,4 +1,10 @@
 $schema: https://raw.githubusercontent.com/zokugun/artifact/v0.6.0/schemas/v1/package.json
 
+always:
+  package.json:
+    transforms:
+      - description: Remove prepublishOnly from scripts
+        jq: 'del(.scripts.prepublishOnly)'
+
 variables:
   BINARY_NAME: package.json.name.split('/').at(-1)
