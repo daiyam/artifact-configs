@@ -3,6 +3,6 @@
 		"release": "release-it"
 	},
 	"devDependencies": {
-		"release-it": "20.0.0-1"
+		"release-it": "20.0.0"
 	}
 }
