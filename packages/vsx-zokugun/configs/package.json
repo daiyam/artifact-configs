@@ -5,12 +5,12 @@
 	},
 	"publisher": "zokugun",
 	"license": "MIT",
-	"homepage": "https://github.com/zokugun/REPOSITORY_NAME",
+	"homepage": "https://github.com/zokugun/#[[vars.REPOSITORY_NAME]]",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/zokugun/REPOSITORY_NAME.git"
+		"url": "https://github.com/zokugun/#[[vars.REPOSITORY_NAME]].git"
 	},
 	"bugs": {
-		"url": "https://github.com/zokugun/REPOSITORY_NAME/issues"
+		"url": "https://github.com/zokugun/#[[vars.REPOSITORY_NAME]]/issues"
 	}
 }
