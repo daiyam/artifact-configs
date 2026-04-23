@@ -1,4 +1,4 @@
-[#[[package.json.name]]](https://github.com/daiyam/REPOSITORY_NAME)
+[#[[package.json.name]]](https://github.com/daiyam/#[[vars.REPOSITORY_NAME]])
 =========================================================
 
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
