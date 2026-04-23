@@ -1,4 +1,4 @@
-[#[[package.json.name]]](https://github.com/zokugun/REPOSITORY_NAME)
+[#[[package.json.name]]](https://github.com/zokugun/#[[vars.REPOSITORY_NAME]])
 ==========================================================
 
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
