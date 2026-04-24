@@ -6,3 +6,8 @@ update:
 
   .github/FUNDING.yml:
     if_exists: merge
+
+variables:
+  REPOSITORY_NAME: =package.json.repository.url |> toGitUrl |> _.name
+  REPOSITORY_OWNER: =package.json.repository.url |> toGitUrl |> _.owner
+  REPOSITORY_SLUG: =package.json.repository.url |> toGitUrl |> _.full_name
