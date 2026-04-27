@@ -1,6 +1,5 @@
 {
 	"scripts": {
-		"compile:src": "tsc -p src",
 		"watch:src": "tsc-watch -p src"
 	},
 	"devDependencies": {
