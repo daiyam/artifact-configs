@@ -9,7 +9,7 @@
 	"scripts": {
 		"build": "npm run clean && npm run compile:src && npm run bundle",
 		"clean": "rimraf out",
-		"package": "rm -f *.vsix && vsce package",
+		"package": "rimraf *.vsix && vsce package",
 		"release": "release-it",
 		"vscode:prepublish": "npm run build",
 		"watch:src": "tsc-watch -p src --onSuccess 'npm run bundle'"
