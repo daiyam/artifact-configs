@@ -7,12 +7,12 @@
 		"prepare": "husky; fixpack || true",
 		"update:artifacts": "artifact update",
 		"update:ci": "PINACT_MIN_AGE=7 pinact run --update",
-		"update:deps": "taze"
+		"update:deps": "taze --all"
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"@commitlint/cli": "19.8.1",
-		"@commitlint/config-conventional": "19.8.1",
+		"@commitlint/cli": "20.5.2",
+		"@commitlint/config-conventional": "20.5.0",
 		"fixpack": "4.0.0",
 		"husky": "9.1.7",
 		"lint-staged": "16.4.0",
