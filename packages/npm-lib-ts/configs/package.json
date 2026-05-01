@@ -5,7 +5,7 @@
 	"scripts": {
 		"build": "npm run clean && npm run build:lib",
 		"build:lib": "tsc-leda generate",
-		"build:package": "tsc-leda update-package",
+		"build:package": "tsc-leda update-package && npm run lint:package",
 		"clean": "rimraf .src",
 		"prepack": "npm run build",
 		"watch:build": "tsc-watch -p src --onSuccess 'npm run build'"
