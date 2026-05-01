@@ -1,0 +1,18 @@
+{
+	"name": "@daiyam/artifact-listing",
+	"version": "0.0.0",
+	"description": "The configuration to do unit testing with vitest and typescript.",
+	"author": {
+		"name": "Baptiste Augrain",
+		"email": "daiyam@zokugun.org"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/daiyam/artifact-configs/tree/master/packages/listing",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/daiyam/artifact-configs.git"
+	},
+	"bugs": {
+		"url": "https://github.com/daiyam/artifact-configs/issues"
+	}
+}

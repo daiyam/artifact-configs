@@ -1,0 +1,36 @@
+- name: "@daiyam/gh-issuehub"
+  description: use GitHub for project management
+- name: "@daiyam/lang-js"
+  description: a JavaScript project
+- name: "@daiyam/lang-ts"
+  description: a TypeScript project
+- name: "@daiyam/npm"
+  description: a NPM package
+- name: "@daiyam/npm-cli-ts"
+  description: a CLI app
+- name: "@daiyam/npm-daiyam"
+  description: "author: daiyam"
+- name: "@daiyam/npm-lib-ts"
+  description: a library
+- name: "@daiyam/npm-ts"
+  description: a TypeScript package
+- name: "@daiyam/npm-zokugun"
+  description: "author: zokugun"
+- name: "@daiyam/sveltekit-shadcn"
+  description: bridge shadcn with sveltekit
+- name: "@daiyam/sveltekit-vite"
+  description: bridge sveltekit with vite
+- name: "@daiyam/tauri-vite-ts"
+  description: a Tauri app
+- name: "@daiyam/test-mocha-ts"
+  description: use Mocha for testing
+- name: "@daiyam/test-vitest-ts"
+  description: use Vitest for testing
+- name: "@daiyam/vsx-bundle-ncc"
+  description: use ncc to bundle the VSX extension
+- name: "@daiyam/vsx-bundle-webpack"
+  description: use webpack to bundle the VSX extension
+- name: "@daiyam/vsx-ts"
+  description: a VSX extension
+- name: "@daiyam/vsx-zokugun"
+  description: "author: zokugun"
