@@ -4,6 +4,11 @@ always:
   .czrc:
     if_exists: remove
 
+  .tazerc.json:
+    transforms:
+      - description: Don't automatically write to package.json
+        jq: 'del(.write)'
+
   package.json:
     transforms:
       - description: Remove scripts.commit only when it clearly invokes Commitizen
