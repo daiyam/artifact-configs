@@ -1,13 +1,8 @@
-$schema: https://raw.githubusercontent.com/zokugun/artifact/v0.6.0/schemas/v1/package.json
+$schema: https://raw.githubusercontent.com/zokugun/artifact/v0.9.0/schemas/v2/package.json
 
 always:
   .czrc:
     if_exists: remove
-
-  .tazerc.json:
-    transforms:
-      - description: Don't automatically write to package.json
-        jq: 'del(.write)'
 
   package.json:
     transforms:
@@ -42,3 +37,36 @@ update:
     filter:
       - scripts
       - devDependencies
+
+journeys:
+  - name: fixpack
+    travels:
+      - path: .fixpackrc
+        format: json
+    route:
+      mapSort:
+        compose:
+          sortToTop: listConcatAfter
+          $$default:
+            fork:
+              array: listConcat
+              object:
+                - mapConcat
+                - mapSort
+              default: primitive
+
+  - name: taze
+    travels:
+      - path: .tazerc.json
+    route:
+      mapSort:
+        compose:
+          $$default:
+            fork:
+              array: listConcat
+              object:
+                - mapConcat
+                - mapSort
+              default: primitive
+          $$remove:
+            - write
