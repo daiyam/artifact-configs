@@ -17,7 +17,7 @@
 	"dependencies": {
 		"@zokugun/fs-extra-plus": "0.4.1",
 		"@zokugun/is-it-type": "0.8.1",
-		"@zokugun/xtry": "0.11.5"
+		"@zokugun/xtry": "0.11.6"
 	},
 	"devDependencies": {
 		"@types/vscode": "1.56.0",
