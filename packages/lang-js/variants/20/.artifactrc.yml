@@ -55,6 +55,20 @@ journeys:
                 - mapSort
               default: primitive
 
+  - name: lintstaged
+    travels:
+      - path: .lintstagedrc.yml
+    route:
+      mapSort:
+        compose:
+          $$default:
+            fork:
+              array: listConcat
+              object:
+                - mapConcat
+                - mapSort
+              default: primitive
+
   - name: taze
     travels:
       - path: .tazerc.json
