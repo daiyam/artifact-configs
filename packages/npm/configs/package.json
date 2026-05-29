@@ -4,5 +4,10 @@
 	},
 	"devDependencies": {
 		"release-it": "20.0.1"
+	},
+	"overrides": {
+		"@inquirer/core": {
+			"mute-stream": "3.0.0"
+		}
 	}
 }
