@@ -7,21 +7,36 @@
 [![Donation](https://img.shields.io/badge/donate-liberapay-green)](https://liberapay.com/daiyam/donate)
 [![Donation](https://img.shields.io/badge/donate-paypal-green)](https://paypal.me/daiyam99)
 
+> (((A short and informative overview)))
 
+Features
+--------
 
-Getting Started
----------------
+(((A list of main features)))
 
-With [node](http://nodejs.org) previously installed:
+Installation
+------------
 
-    npm install #[[package.json.name]]
-
-```typescript
-import {  } from '#[[package.json.name]]';
-
+```bash
+npm add #[[package.json.name]]
 ```
 
+Quick Start
+-----------
 
+(((A quick but useful example)))
+
+API reference
+-------------
+
+(((Full API and full type signatures)))
+
+Contributions
+-------------
+
+Contributions are most welcome. Please:
+- Open issues and feature requests under the repository discussions.
+- Follow the [`CONTRIBUTING.md`](./CONTRIBUTING.md).
 
 Donations
 ---------
