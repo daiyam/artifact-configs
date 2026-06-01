@@ -6,5 +6,10 @@ always:
       - description: Remove prepublishOnly from scripts
         jq: 'del(.scripts.prepublishOnly)'
 
+update:
+  src/*:
+    if_missing: skip
+    if_exists: skip
+
 variables:
   BINARY_NAME: =package.json.name.split('/').at(-1)
