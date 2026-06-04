@@ -10,7 +10,7 @@ update:
   package.json:
     route:
       $$extend: package
-      patch:
+      patches:
         - op: replace
           path: /map(compose)/dependencies/map(sort)
           value:
@@ -22,7 +22,8 @@ update:
               $$default: primitive
 
   src/**:
-    update: false
+    if_exists: skip
+    if_missing: skip
 
 variables:
   BINARY_NAME: =package.json.name.split('/').at(-1)
