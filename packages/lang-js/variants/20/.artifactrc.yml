@@ -40,28 +40,30 @@ update:
 
 journeys:
   - name: fixpack
+    scope: global
     travels:
       - path: .fixpackrc
         format: json
     route:
       $$extend: default(sort)
       patches:
-      patch:
         - op: add
           path: /map(sort)/map(compose)/sortToTop
           value: list(dedup-first)
 
   - name: lintstaged
+    scope: global
     travels:
       - path: .lintstagedrc.yml
     route: default(sort)
 
   - name: taze
+    scope: global
     travels:
       - path: .tazerc.json
     route:
       $$extend: default(sort)
-      patch:
+      patches:
         - op: add
           path: /map(sort)/map(compose)/$$remove
           value:
