@@ -1,4 +1,4 @@
-$schema: https://raw.githubusercontent.com/zokugun/artifact/v0.9.0/schemas/v2/package.json
+$schema: https://raw.githubusercontent.com/zokugun/artifact/v0.11.0/schemas/v3/package.json
 
 always:
   .czrc:
@@ -44,43 +44,25 @@ journeys:
       - path: .fixpackrc
         format: json
     route:
-      mapSort:
-        compose:
-          sortToTop: listConcatAfter
-          $$default:
-            fork:
-              array: listConcat
-              object:
-                - mapConcat
-                - mapSort
-              default: primitive
+      $$extend: default(sort)
+      patches:
+      patch:
+        - op: add
+          path: /map(sort)/map(compose)/sortToTop
+          value: list(dedup-first)
 
   - name: lintstaged
     travels:
       - path: .lintstagedrc.yml
-    route:
-      mapSort:
-        compose:
-          $$default:
-            fork:
-              array: listConcat
-              object:
-                - mapConcat
-                - mapSort
-              default: primitive
+    route: default(sort)
 
   - name: taze
     travels:
       - path: .tazerc.json
     route:
-      mapSort:
-        compose:
-          $$default:
-            fork:
-              array: listConcat
-              object:
-                - mapConcat
-                - mapSort
-              default: primitive
-          $$remove:
+      $$extend: default(sort)
+      patch:
+        - op: add
+          path: /map(sort)/map(compose)/$$remove
+          value:
             - write
