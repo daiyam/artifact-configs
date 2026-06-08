@@ -19,10 +19,5 @@
 		"lint-staged": "16.4.0",
 		"taze": "19.14.1"
 	},
-	"overrides": {
-		"ajv": {
-			"fast-uri": "3.1.2"
-		}
-	},
 	"keywords": []
 }
