@@ -1,5 +1,8 @@
 $schema: https://raw.githubusercontent.com/zokugun/artifact/v0.11.0/schemas/v3/package.json
 
+features:
+  - test
+
 update:
   package.json:
     route:
