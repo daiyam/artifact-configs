@@ -29,6 +29,7 @@
 		"optionalDependencies",
 		"peerDependencies",
 		"overrides",
+		"allowScripts",
 		"keywords"
 	],
 	"finalNewLine": true
