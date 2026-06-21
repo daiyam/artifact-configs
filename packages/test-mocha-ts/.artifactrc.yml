@@ -1,4 +1,7 @@
-$schema: https://raw.githubusercontent.com/zokugun/artifact/v0.6.0/schemas/v1/package.json
+$schema: https://raw.githubusercontent.com/zokugun/artifact/v0.11.0/schemas/v3/package.json
+
+features:
+  - test
 
 update:
   package.json:
