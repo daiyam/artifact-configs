@@ -7,6 +7,9 @@ upsert:
   .github/**/*.yml:
     if_exists: overwrite
 
+  .github/dependabot.yml:
+    if_exists: overwrite
+
   .github/workflows/close-invalid-issue.yml:
     rename: .github/workflows/mod-close-invalid-issue.yml
 
