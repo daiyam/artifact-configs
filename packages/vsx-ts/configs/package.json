@@ -8,26 +8,21 @@
 	"browser": "./lib/index.js",
 	"scripts": {
 		"build": "npm run clean && npm run compile:src && npm run bundle",
-		"clean": "rimraf out",
+		"clean": "rimraf out *.vsix",
 		"package": "rimraf *.vsix && vsce package",
 		"release": "release-it",
 		"vscode:prepublish": "npm run build",
 		"watch:src": "tsc-watch -p src --onSuccess 'npm run bundle'"
 	},
 	"dependencies": {
-		"@zokugun/fs-extra-plus": "0.4.1",
+		"@zokugun/fs-extra-plus": "0.5.0",
 		"@zokugun/is-it-type": "0.8.1",
 		"@zokugun/xtry": "0.11.6"
 	},
 	"devDependencies": {
 		"@types/vscode": "1.56.0",
-		"release-it": "20.0.1",
+		"release-it": "20.2.0",
 		"tsc-watch": "7.2.0"
-	},
-	"overrides": {
-		"@inquirer/core": {
-			"mute-stream": "3.0.0"
-		}
 	},
 	"activationEvents": [
 		"onStartupFinished"
