@@ -1,0 +1,21 @@
+diff --git a/packages/lang-js/variants/20/configs/.github/workflows/ci-pr.yml b/packages/lang-js/branches/[#all:test]/configs/.github/workflows/ci-pr.yml
+index ab5ad4d..baccf99 100644
+--- a/packages/lang-js/variants/20/configs/.github/workflows/ci-pr.yml
++++ b/packages/lang-js/branches/[#all:test]/configs/.github/workflows/ci-pr.yml
+@@ -1,4 +1,4 @@
+-name: "CI - Pull Request: Build & Lint"
++name: "CI - Pull Request: Build, Test & Lint"
+ 
+ on:
+   pull_request:
+@@ -37,6 +37,10 @@ jobs:
+         run: |
+           npm run build
+ 
++      - name: Test
++        run: |
++          npm run test
++
+       - name: Lint code
+         run: |
+           npm run lint:all
