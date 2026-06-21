@@ -1,0 +1,27 @@
+{
+	"scripts": {
+		"clean": "rimraf .test .vscode-test",
+		"test": "tsc -p test && vscode-test",
+		"test:dev": "vscode-test",
+		"test:watch": "tsc-watch -p src -p test --onSuccess 'vscode-test'",
+		"watch:test": "tsc-watch -p test"
+	},
+	"devDependencies": {
+		"@types/chai": "5.2.3",
+		"@types/mocha": "10.0.10",
+		"@vscode/test-cli": "0.0.12",
+		"@vscode/test-electron": "2.5.2",
+		"@zokugun/fs-extra-plus": "0.5.0",
+		"@zokugun/xtry": "0.11.6",
+		"chai": "6.2.2",
+		"eslint-plugin-chai-friendly": "1.2.0",
+		"mocha": "11.7.6",
+		"yaml": "2.9.0"
+	},
+	"overrides": {
+		"mocha": {
+			"diff": "8.0.3",
+			"serialize-javascript": "7.0.5"
+		}
+	}
+}

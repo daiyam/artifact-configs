@@ -1,0 +1,44 @@
+$schema: https://raw.githubusercontent.com/zokugun/artifact/v0.6.0/schemas/v1/package.json
+
+update:
+  package.json:
+    route:
+      $$extend: package
+      patches:
+        - op: replace
+          path: /map(compose)/devDependencies/map(sort)
+          value:
+            map(filter):
+              '@zokugun/fs-extra-plus':
+                if_missing: skip
+              '@zokugun/xtry':
+                if_missing: skip
+              yaml:
+                if_missing: skip
+              $$default: primitive
+
+  test/*.ts:
+    if_missing: skip
+    if_exists: skip
+
+uninstall:
+  .test:
+    if_exists: remove
+
+  .vscode/launch.json:
+    if_exists: unmerge
+
+  .vscode/settings.json:
+    if_exists: unmerge
+
+  .vscode-test:
+    if_exists: remove
+
+  .vscode-test.mjs:
+    if_exists: remove
+
+  .xo-config.json:
+    if_exists: unmerge
+
+  package.json:
+    if_exists: unmerge
