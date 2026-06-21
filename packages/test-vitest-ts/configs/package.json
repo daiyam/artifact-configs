@@ -15,5 +15,8 @@
 		"@zokugun/xtry": "0.11.6",
 		"vitest": "4.1.8",
 		"yaml": "2.9.0"
+	},
+	"allowScripts": {
+		"fsevents": true
 	}
 }
