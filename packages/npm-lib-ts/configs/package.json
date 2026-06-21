@@ -12,5 +12,8 @@
 	},
 	"devDependencies": {
 		"@zokugun/tsc-leda": "0.4.2"
+	},
+	"allowScripts": {
+		"@zokugun/cli-utils": true
 	}
 }
