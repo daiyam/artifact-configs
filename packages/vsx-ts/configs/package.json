@@ -21,6 +21,7 @@
 	},
 	"devDependencies": {
 		"@types/vscode": "1.56.0",
+		"@vscode/vsce": "3.9.2",
 		"release-it": "20.2.0",
 		"tsc-watch": "7.2.0"
 	},
