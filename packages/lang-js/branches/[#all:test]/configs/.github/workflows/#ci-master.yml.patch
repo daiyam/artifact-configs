@@ -1,5 +1,3 @@
-diff --git a/packages/lang-js/variants/20/configs/.github/workflows/ci-master.yml b/packages/lang-js/branches/[#all:test]/configs/.github/workflows/ci-master.yml
-index 7615a52..baccf99 100644
 --- a/.github/workflows/ci-master.yml
 +++ b/.github/workflows/ci-master.yml
 @@ -1,4 +1,4 @@
