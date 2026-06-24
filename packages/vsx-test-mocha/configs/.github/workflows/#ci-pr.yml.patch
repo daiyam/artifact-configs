@@ -1,0 +1,11 @@
+--- a/.github/workflows/ci-pr.yml
++++ b/.github/workflows/ci-pr.yml
+@@ -39,7 +39,7 @@ jobs:
+ 
+       - name: Test
+         run: |
+-          npm run test
++          xvfb-run -a npm run test
+ 
+       - name: Lint code
+         run: |
