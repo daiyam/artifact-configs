@@ -30,6 +30,10 @@
 			"undici": "7.28.0"
 		}
 	},
+	"allowScripts": {
+		"@vscode/vsce-sign": true,
+		"keytar": true
+	},
 	"activationEvents": [
 		"onStartupFinished"
 	],
