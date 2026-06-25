@@ -11,7 +11,7 @@
 		"watch:build": "tsc-watch -p src --onSuccess 'npm run build'"
 	},
 	"devDependencies": {
-		"@zokugun/tsc-leda": "0.4.2"
+		"@zokugun/tsc-leda": "0.4.3"
 	},
 	"allowScripts": {
 		"@zokugun/cli-utils": true
