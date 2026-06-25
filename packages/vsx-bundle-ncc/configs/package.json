@@ -4,6 +4,6 @@
 		"clean": "rimraf lib"
 	},
 	"devDependencies": {
-		"@vercel/ncc": "^0.38.3"
+		"@vercel/ncc": "0.44.0"
 	}
 }
