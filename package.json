@@ -16,16 +16,26 @@
 		"url": "https://github.com/daiyam/artifact-configs/issues"
 	},
 	"scripts": {
+		"lint:all": "npm run lint:package && npm audit",
+		"lint:package": "fixpack || true",
 		"npm:publish:force": "lerna publish from-package",
 		"prepare": "husky",
-		"release": "npm login && lerna publish"
+		"release": "npm login && lerna publish",
+		"update:deps": "taze --all"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^20.4.1",
-		"@commitlint/config-conventional": "^20.4.1",
-		"@commitlint/config-lerna-scopes": "^20.4.0",
-		"fixpack": "^4.0.0",
-		"husky": "^9.1.7",
-		"lerna": "^9.0.4"
+		"@commitlint/cli": "20.5.3",
+		"@commitlint/config-conventional": "20.5.3",
+		"@commitlint/config-lerna-scopes": "20.4.3",
+		"fixpack": "4.0.0",
+		"husky": "9.1.7",
+		"lerna": "9.0.7",
+		"taze": "19.14.1"
+	},
+	"overrides": {
+		"lerna": {
+			"js-yaml": "4.3.0",
+			"tar": "7.5.19"
+		}
 	}
 }
