@@ -3,7 +3,7 @@
 		"audit:fix": "npm audit fix --min-release-age=0",
 		"ci:lint": "zizmor .",
 		"ci:lint:fix": "zizmor . --fix=all",
-		"lint:all": "npm audit && npm run lint:package && npm run ci:lint",
+		"lint:all": "npm run lint:package && npm audit && npm run ci:lint",
 		"lint:package": "fixpack || true",
 		"prepare": "husky; npm run lint:package",
 		"update:artifacts": "artifact update",
