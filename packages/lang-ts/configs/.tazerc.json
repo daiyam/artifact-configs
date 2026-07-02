@@ -3,6 +3,7 @@
 		"xo"
 	],
 	"packageMode": {
+		"@types/node": "minor",
 		"typescript": "minor"
 	}
 }
