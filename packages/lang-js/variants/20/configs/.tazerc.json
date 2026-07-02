@@ -6,8 +6,5 @@
 	],
 	"force": true,
 	"includeLocked": true,
-	"maturityPeriod": 7,
-	"packageMode": {
-		"@types/node": "minor"
-	}
+	"maturityPeriod": 7
 }
