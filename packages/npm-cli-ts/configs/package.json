@@ -12,7 +12,7 @@
 		"watch:build": "tsc-watch -p src --onSuccess 'npm run build'"
 	},
 	"dependencies": {
-		"@zokugun/cli-utils": "0.3.2",
+		"@zokugun/cli-utils": "0.3.3",
 		"execa": "9.6.1",
 		"trash": "10.1.1"
 	},
