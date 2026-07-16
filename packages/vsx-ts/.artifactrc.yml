@@ -9,6 +9,9 @@ update:
       - main
       - scripts
       - devDependencies
+    transforms:
+      - description: Remove release-it from overrides
+        jq: 'del(.overrides["release-it"])'
 
   .github/**/*.yml:
     if_exists: overwrite
