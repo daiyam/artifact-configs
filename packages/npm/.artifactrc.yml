@@ -5,3 +5,8 @@ upsert:
 update:
   CHANGELOG.md:
     if_exists: skip
+
+  package.json:
+    transforms:
+      - description: Remove release-it from overrides
+        jq: 'del(.overrides["release-it"])'
