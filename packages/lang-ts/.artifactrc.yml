@@ -3,3 +3,13 @@ $schema: https://raw.githubusercontent.com/zokugun/artifact/v0.11.0/schemas/v3/p
 always:
   .xo-config.json:
     if_exists: remove
+
+  .tazerc.json:
+    transforms:
+      - description: Remove xo from exclude
+        jq: '.exclude -= ["xo"]'
+
+  package.json:
+    transforms:
+      - description: Remove xo from devDependencies
+        jq: 'del(.devDependencies.xo)'
