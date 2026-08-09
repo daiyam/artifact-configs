@@ -34,8 +34,5 @@ uninstall:
   .vscode/settings.json:
     if_exists: unmerge
 
-  .xo-config.json:
-    if_exists: unmerge
-
   package.json:
     if_exists: unmerge
