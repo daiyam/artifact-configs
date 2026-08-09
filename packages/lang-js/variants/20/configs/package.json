@@ -7,7 +7,7 @@
 		"lint:package": "fixpack || true",
 		"prepare": "husky; npm run lint:package",
 		"update:artifacts": "artifact update",
-		"update:ci": "PINACT_MIN_AGE=7 pinact run --update",
+		"update:ci": "pinact run -min-age 7 -update",
 		"update:deps": "taze --all"
 	},
 	"dependencies": {},
@@ -17,7 +17,7 @@
 		"fixpack": "4.0.0",
 		"husky": "9.1.7",
 		"lint-staged": "16.4.0",
-		"taze": "19.14.1"
+		"taze": "19.16.0"
 	},
 	"keywords": []
 }
