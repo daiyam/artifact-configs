@@ -40,8 +40,5 @@ uninstall:
   .vscode-test.mjs:
     if_exists: remove
 
-  .xo-config.json:
-    if_exists: unmerge
-
   package.json:
     if_exists: unmerge
