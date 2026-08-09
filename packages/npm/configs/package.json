@@ -4,5 +4,10 @@
 	},
 	"devDependencies": {
 		"release-it": "20.2.1"
+	},
+	"overrides": {
+		"release-it": {
+			"undici": "7.29.0"
+		}
 	}
 }
