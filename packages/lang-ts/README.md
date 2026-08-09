@@ -19,8 +19,6 @@ artifact add @daiyam/lang-js @daiyam/lang-ts
 Dependencies
 ------------
 
-- [xo](https://github.com/xojs/xo)
-
 License
 -------
 

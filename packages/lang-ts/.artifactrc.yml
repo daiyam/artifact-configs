@@ -1,15 +1,5 @@
 $schema: https://raw.githubusercontent.com/zokugun/artifact/v0.11.0/schemas/v3/package.json
 
-journeys:
-  - name: xo
-    scope: global
-    travels:
-      - path: .xo-config.json
-    route:
-      map(sort):
-        map(compose):
-          ignores: list(concat)
-          overrides: list(concat)
-          plugins: list(concat)
-          rules: map(sort, concat)
-          $$default: overwrite
+always:
+  .xo-config.json:
+    if_exists: remove

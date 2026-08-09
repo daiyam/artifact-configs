@@ -1,1 +1,1 @@
-"*.ts": xo
+"*.ts": eslint

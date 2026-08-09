@@ -1,7 +1,5 @@
 {
-	"exclude": [
-		"xo"
-	],
+	"exclude": [],
 	"packageMode": {
 		"@types/node": "minor",
 		"typescript": "minor"
