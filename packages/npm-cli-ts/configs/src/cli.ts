@@ -5,18 +5,24 @@ import { run } from './run.js';
 
 const program = new Command();
 
+// Option 1 {{{
 program
 	.version(pkg.version, '-v, --version')
 	.description(pkg.description);
 
-// Option 1.
 program
 	.command('hello')
 	.description('print a greeting')
 	.argument('[name]')
 	.action(hello);
 
-// Option 2.
-program.action(run);
-
 program.parse();
+// }}}
+
+// Option 2 {{{
+program
+	.version(pkg.version, '-v, --version')
+	.description(pkg.description)
+	.action(run)
+	.parse();
+// }}}
