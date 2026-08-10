@@ -1,6 +1,11 @@
+$schema: https://raw.githubusercontent.com/zokugun/artifact/v0.11.0/schemas/v3/package.json
+
 upsert:
   .github/**/*.yml:
     if_exists: overwrite
+
+  .github/scripts/get-changelog.js:
+    rename: .github/scripts/get-changelog.cjs
 
 update:
   CHANGELOG.md:
