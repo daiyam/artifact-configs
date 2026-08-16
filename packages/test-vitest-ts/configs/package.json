@@ -11,6 +11,7 @@
 	"devDependencies": {
 		"@vitest/coverage-v8": "4.1.10",
 		"@vitest/ui": "4.1.10",
+		"@zokugun/eslint-config-test": "0.1.0",
 		"@zokugun/fs-extra-plus": "0.5.0",
 		"@zokugun/xtry": "0.11.6",
 		"vitest": "4.1.10",
