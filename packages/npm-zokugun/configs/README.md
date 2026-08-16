@@ -26,7 +26,7 @@ Quick Start
 
 (((A quick but useful example)))
 
-API reference
+API Reference
 -------------
 
 (((Full API and full type signatures)))
