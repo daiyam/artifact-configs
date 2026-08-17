@@ -7,11 +7,11 @@ import { nodejs } from '@zokugun/eslint-config-nodejs';
 export default configure([
 	ignores(),
 	gitignore(),
+	markdown(),
 	nodejs(),
 	javascript(),
 	regexp(),
 	json(),
 	jsonc(),
 	yaml(),
-	markdown(),
 ]);
