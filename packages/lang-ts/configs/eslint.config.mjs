@@ -7,4 +7,5 @@ export default configure([
 	importX(),
 	perfectionist(),
 	stylistic(),
+	json(),
 ]);
