@@ -4,8 +4,8 @@
 		"compile:src": "tsc -p src"
 	},
 	"devDependencies": {
-		"@zokugun/eslint-config-style": "0.2.0",
-		"@zokugun/eslint-config-ts": "0.2.0",
+		"@zokugun/eslint-config-style": "0.3.0",
+		"@zokugun/eslint-config-ts": "0.3.0",
 		"rimraf": "6.1.3",
 		"typescript": "5.9.3"
 	},
