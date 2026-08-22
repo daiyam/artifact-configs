@@ -5,9 +5,6 @@
 		"outDir": ".",
 		"rootDir": ".",
 		"composite": true,
-
-		/* Module Resolution Options */
-		"resolveJsonModule": true,
 	},
 	"files": [
 		"package.json",
