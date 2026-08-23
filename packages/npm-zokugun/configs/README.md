@@ -3,7 +3,7 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
 [![NPM Version](https://img.shields.io/npm/v/#[[package.json.name]]?color=brightgreen)](https://www.npmjs.com/package/#[[package.json.name]])
-[![NodeJS Version](https://img.shields.io/badge/node.js-%3E%3D%2018-green)](#requirements)
+[![NodeJS Version](https://img.shields.io/badge/node.js-%3E%3D%2018.20-green)](#requirements)
 [![Modules](https://img.shields.io/badge/modules-ESM%20%7C%20CJS-green)](#requirements)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-f87171?logo=kofi&logoColor=white)](https://ko-fi.com/daiyam)
 [![Liberapay](https://img.shields.io/badge/Liberapay-facc15?logo=liberapay&logoColor=black)](https://liberapay.com/daiyam/donate)
@@ -26,7 +26,7 @@ npm add #[[package.json.name]]
 Requirements
 ------------
 
-- **Node.js**: `v18` or higher
+- **Node.js**: `v18.20` or higher
 - **Modules**: ECMAScript Modules (`ESM`) or CommonJS (`CJS`)
 
 Quick Start
