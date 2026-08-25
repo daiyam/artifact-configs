@@ -1,5 +1,5 @@
 {
 	"compilerOptions": {
-		"outDir": "../.src",
+		"declaration": true,							/* Generates corresponding '.d.ts' file. */
 	},
 }
