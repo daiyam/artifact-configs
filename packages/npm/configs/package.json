@@ -1,5 +1,7 @@
 {
+	"type": "module",
 	"scripts": {
+		"prepack": "npm run build",
 		"release": "release-it"
 	},
 	"devDependencies": {
