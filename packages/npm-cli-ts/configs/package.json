@@ -2,14 +2,11 @@
 	"engines": {
 		"node": ">=18.20"
 	},
-	"type": "module",
 	"bin": {
 		"#[[vars.BINARY_NAME]]": "bin/#[[vars.BINARY_NAME]]"
 	},
 	"scripts": {
-		"build": "npm run clean && npm run compile:src",
-		"prepack": "npm run build",
-		"watch:build": "tsc-watch -p src --onSuccess 'npm run build'"
+		"clean": "rimraf dist"
 	},
 	"dependencies": {
 		"@zokugun/cli-utils": "0.3.3",

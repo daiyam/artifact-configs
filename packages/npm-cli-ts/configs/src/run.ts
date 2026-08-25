@@ -1,7 +1,9 @@
 import logger from '@zokugun/cli-utils/logger';
-import { type CliOptions } from './types.js';
 
-export async function run(options: CliOptions): Promise<void> {
+export type Options = {
+};
+
+export async function run(options: Options): Promise<void> {
 	logger.beginTimer();
 
 	logger.finishTimer();
