@@ -1,8 +1,13 @@
 {
 	"scripts": {
+		"build": "npm run clean && npm run build:out",
+		"build:out": "tsc-leda generate",
+		"clean": "rimraf .src",
+		"watch:build": "tsc-watch -p src --onSuccess 'npm run build'",
 		"watch:src": "tsc-watch -p src"
 	},
 	"devDependencies": {
+		"@zokugun/tsc-leda": "0.8.2",
 		"tsc-watch": "7.2.1"
 	}
 }
