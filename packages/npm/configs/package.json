@@ -8,6 +8,9 @@
 		"release-it": "20.2.1"
 	},
 	"overrides": {
+		"@octokit/request": {
+			"content-type": "2.1.0"
+		},
 		"release-it": {
 			"undici": "7.29.0"
 		}
