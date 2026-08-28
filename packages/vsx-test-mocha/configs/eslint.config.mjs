@@ -1,8 +1,9 @@
 import { mocha } from '@zokugun/eslint-config-test';
 
 export default configure([
+	// configdotts/Ignore rules
 	ignores('test/fixtures/**'),
-	typescript(),
+
+	// configdotts/Testing rules
 	mocha(),
-	importX(),
 ]);
