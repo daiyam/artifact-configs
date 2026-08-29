@@ -1,6 +1,6 @@
 {
 	"name": "@daiyam/artifact-test-mocha-ts",
-	"version": "0.6.4",
+	"version": "0.6.5",
 	"description": "The configuration to do unit testing with mocha and typescript.",
 	"author": {
 		"name": "Baptiste Augrain",
