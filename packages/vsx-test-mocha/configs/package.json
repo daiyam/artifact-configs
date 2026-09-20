@@ -13,7 +13,7 @@
 		"@vscode/test-electron": "2.5.2",
 		"@zokugun/eslint-config-test": "0.2.0",
 		"@zokugun/fs-extra-plus": "0.6.1",
-		"@zokugun/xtry": "0.12.0",
+		"@zokugun/xtry": "0.12.1",
 		"chai": "6.2.2",
 		"eslint-plugin-chai-friendly": "1.2.1",
 		"mocha": "11.7.6",
