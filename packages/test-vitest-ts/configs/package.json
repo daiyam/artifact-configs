@@ -13,7 +13,7 @@
 		"@vitest/ui": "4.1.11",
 		"@zokugun/eslint-config-test": "0.2.0",
 		"@zokugun/fs-extra-plus": "0.6.1",
-		"@zokugun/xtry": "0.12.0",
+		"@zokugun/xtry": "0.12.1",
 		"vitest": "4.1.11",
 		"yaml": "2.9.0"
 	},
