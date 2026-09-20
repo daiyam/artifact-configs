@@ -1,6 +1,5 @@
 {
 	"scripts": {
-		"clean": "rimraf lib",
 		"compile:src": "tsc -p src"
 	},
 	"devDependencies": {
