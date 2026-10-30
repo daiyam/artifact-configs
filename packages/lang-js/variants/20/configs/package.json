@@ -22,7 +22,7 @@
 		"@zokugun/eslint-config-js": "0.2.1",
 		"@zokugun/eslint-config-md": "0.4.1",
 		"@zokugun/eslint-config-nodejs": "0.2.0",
-		"eslint": "10.9.0",
+		"eslint": "10.13.0",
 		"fixpack": "4.0.0",
 		"husky": "9.1.7",
 		"lint-staged": "16.4.0",
