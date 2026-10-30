@@ -18,3 +18,6 @@ update:
   #   transforms:
   #     - description: Remove release-it from overrides
   #       jq: 'del(.overrides["release-it"])'
+
+variables:
+  REPOSITORY_SLUG: =package.json.repository.url |> toGitUrl |> _.full_name
