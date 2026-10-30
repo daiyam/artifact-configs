@@ -28,5 +28,10 @@
 		"lint-staged": "16.4.0",
 		"taze": "19.17.2"
 	},
+	"overrides": {
+		"micromark-extension-math": {
+			"katex": "0.18.2"
+		}
+	},
 	"keywords": []
 }
