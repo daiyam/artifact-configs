@@ -36,3 +36,6 @@ update:
 
   src/utils/*:
     if_exists: overwrite
+
+variables:
+  REPOSITORY_SLUG: =package.json.repository.url |> toGitUrl |> _.full_name
