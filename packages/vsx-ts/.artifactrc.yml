@@ -2,7 +2,10 @@ $schema: https://raw.githubusercontent.com/zokugun/artifact/v0.11.0/schemas/v3/p
 
 upsert:
   .github/scripts/get-changelog.js:
-    rename: .github/scripts/get-changelog.cjs
+    if_exists: remove
+
+  .github/scripts/get-changelog.cjs:
+    if_exists: remove
 
 update:
   CHANGELOG.md:
