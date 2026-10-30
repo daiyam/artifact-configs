@@ -32,7 +32,7 @@ Users are not Allowed to Create Issues Directly
 
 Users are not allowed to create Issues directly in this repository - we ask that you create a [Discussion][discussions] first.
 
-This project **does not use the issue tracker for discussion or feature requests**. Instead, we use GitHub [discussions][discussions] for that. Once a discussion reaches a point where a well-understood, actionable item is identified, it is moved to the issue tracker. **This pattern makes it easier for maintainers or contributors to find issues to work on since every issue is ready to be worked on**.
+This project **does not use the issue tracker for discussion or feature requests**. Instead, we use GitHub [discussions] for that. Once a discussion reaches a point where a well-understood, actionable item is identified, it is moved to the issue tracker. **This pattern makes it easier for maintainers or contributors to find issues to work on since every issue is ready to be worked on**.
 
 Any Discussion which clearly identifies a problem and can be confirmed or reproduced will be converted to an Issue by a maintainer, so as a user finding a valid problem you don't do any extra work anyway. Thank you.
 
@@ -111,18 +111,18 @@ Support the Project Financially
 Supporting the project financially counts as a contribution (even if it's just a $1/month).
 
 <table>
-    <tr>
-        <td><img src="https://raw.githubusercontent.com/daiyam/assets/master/icons/256/funding_kofi.png" alt="Ko-fi" width="80px" height="80px"></td>
-        <td><a href="https://ko-fi.com/daiyam" target="_blank">ko-fi.com/daiyam</a></td>
-    </tr>
-    <tr>
-        <td><img src="https://raw.githubusercontent.com/daiyam/assets/master/icons/256/funding_liberapay.png" alt="Liberapay" width="80px" height="80px"></td>
-        <td><a href="https://liberapay.com/daiyam/donate" target="_blank">liberapay.com/daiyam/donate</a></td>
-    </tr>
-    <tr>
-        <td><img src="https://raw.githubusercontent.com/daiyam/assets/master/icons/256/funding_paypal.png" alt="PayPal" width="80px" height="80px"></td>
-        <td><a href="https://paypal.me/daiyam99" target="_blank">paypal.me/daiyam99</a></td>
-    </tr>
+   <tr>
+      <td><img src="https://raw.githubusercontent.com/daiyam/assets/master/icons/256/funding_kofi.png" alt="Ko-fi" width="80px" height="80px"></td>
+      <td><a href="https://ko-fi.com/daiyam" target="_blank">ko-fi.com/daiyam</a></td>
+   </tr>
+   <tr>
+      <td><img src="https://raw.githubusercontent.com/daiyam/assets/master/icons/256/funding_liberapay.png" alt="Liberapay" width="80px" height="80px"></td>
+      <td><a href="https://liberapay.com/daiyam/donate" target="_blank">liberapay.com/daiyam/donate</a></td>
+   </tr>
+   <tr>
+      <td><img src="https://raw.githubusercontent.com/daiyam/assets/master/icons/256/funding_paypal.png" alt="PayPal" width="80px" height="80px"></td>
+      <td><a href="https://paypal.me/daiyam99" target="_blank">paypal.me/daiyam99</a></td>
+   </tr>
 </table>
 
 [closed-discussions]: https://github.com/#[[vars.REPOSITORY_SLUG]]/discussions?discussions_q=is%3Aclosed
