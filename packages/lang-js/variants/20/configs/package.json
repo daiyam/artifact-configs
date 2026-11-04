@@ -29,6 +29,24 @@
 		"taze": "19.17.2"
 	},
 	"overrides": {
+		"@eslint/config-array": {
+			"minimatch": "11.0.1"
+		},
+		"@mdit-vue/shared": {
+			"markdown-it": "14.3.3"
+		},
+		"@typescript-eslint/typescript-estree": {
+			"minimatch": "11.0.1"
+		},
+		"ajv": {
+			"fast-uri": "3.1.9"
+		},
+		"eslint": {
+			"minimatch": "11.0.1"
+		},
+		"eslint-plugin-import-x": {
+			"minimatch": "11.0.1"
+		},
 		"micromark-extension-math": {
 			"katex": "0.18.2"
 		}
