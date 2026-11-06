@@ -15,9 +15,9 @@
 		"watch:src": "tsc-watch -p src --onSuccess 'npm run bundle'"
 	},
 	"dependencies": {
-		"@zokugun/fs-extra-plus": "0.6.2",
+		"@zokugun/fs-extra-plus": "0.6.5",
 		"@zokugun/is-it-type": "0.8.1",
-		"@zokugun/xtry": "0.12.1"
+		"@zokugun/xtry": "0.12.2"
 	},
 	"devDependencies": {
 		"@types/vscode": "1.56.0",
