@@ -1,6 +1,6 @@
 {
 	"name": "@daiyam/artifact-vsx-test-mocha",
-	"version": "0.2.8",
+	"version": "0.2.9",
 	"description": "The configuration to do unit testing for VSCode extensions.",
 	"author": {
 		"name": "Baptiste Augrain",
