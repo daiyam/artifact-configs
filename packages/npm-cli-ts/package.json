@@ -1,6 +1,6 @@
 {
 	"name": "@daiyam/artifact-npm-cli-ts",
-	"version": "0.9.7",
+	"version": "0.9.8",
 	"description": "The configuration to create a CLI",
 	"author": {
 		"name": "Baptiste Augrain",
