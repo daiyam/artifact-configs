@@ -6,8 +6,11 @@ always:
 
   package.json:
     transforms:
-      - description: Remove release-it from devDependencies
-        jq: 'del(.devDependencies["release-it"])'
+      - jq: 'del(.scripts.release)'
+      - jq: 'del(.devDependencies["release-it"])'
+      - jq: 'del(.overrides["@octokit/request"])'
+      - jq: 'del(.overrides["get-uri"])'
+      - jq: 'del(.overrides["release-it"])'
 
 upsert:
   .github/**/*.yml:
