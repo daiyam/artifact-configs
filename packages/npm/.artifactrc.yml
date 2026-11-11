@@ -14,10 +14,5 @@ update:
   CHANGELOG.md:
     if_exists: skip
 
-  # package.json:
-  #   transforms:
-  #     - description: Remove release-it from overrides
-  #       jq: 'del(.overrides["release-it"])'
-
 variables:
   REPOSITORY_SLUG: =package.json.repository.url |> toGitUrl |> _.full_name

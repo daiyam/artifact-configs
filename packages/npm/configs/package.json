@@ -2,20 +2,8 @@
 	"type": "module",
 	"scripts": {
 		"prepack": "npm run build",
-		"release": "release-it"
+		"release": ""
 	},
 	"devDependencies": {
-		"release-it": "20.2.1"
-	},
-	"overrides": {
-		"@octokit/request": {
-			"content-type": "2.1.0"
-		},
-		"get-uri": {
-			"basic-ftp": "6.2.3"
-		},
-		"release-it": {
-			"undici": "7.30.1"
-		}
 	}
 }
