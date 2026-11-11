@@ -7,8 +7,5 @@
 		"@zokugun/eslint-config-ts": "0.3.2",
 		"rimraf": "6.1.4",
 		"typescript": "5.9.3"
-	},
-	"allowScripts": {
-		"unrs-resolver": true
 	}
 }
