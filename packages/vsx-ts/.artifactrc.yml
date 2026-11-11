@@ -5,6 +5,7 @@ always:
     if_exists: remove
 
   package.json:
+    transforms:
       - description: Remove release-it from devDependencies
         jq: 'del(.devDependencies.release-it)'
 
