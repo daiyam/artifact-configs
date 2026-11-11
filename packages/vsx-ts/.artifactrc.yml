@@ -7,7 +7,7 @@ always:
   package.json:
     transforms:
       - description: Remove release-it from devDependencies
-        jq: 'del(.devDependencies.release-it)'
+        jq: 'del(.devDependencies["release-it"])'
 
 upsert:
   .github/scripts/get-changelog.js:
