@@ -1,5 +1,13 @@
 $schema: https://raw.githubusercontent.com/zokugun/artifact/v0.11.0/schemas/v3/package.json
 
+always:
+  .release-it.yml:
+    if_exists: remove
+
+  package.json:
+      - description: Remove release-it from devDependencies
+        jq: 'del(.devDependencies.release-it)'
+
 upsert:
   .github/scripts/get-changelog.js:
     if_exists: remove
