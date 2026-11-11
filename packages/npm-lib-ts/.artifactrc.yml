@@ -3,5 +3,5 @@ $schema: https://raw.githubusercontent.com/zokugun/artifact/v0.6.0/schemas/v1/pa
 always:
   package.json:
     transforms:
-      - description: Remove prepublishOnly from scripts
-        jq: 'del(.scripts.prepublishOnly)'
+      - jq: 'del(.scripts.prepublishOnly)'
+      - jq: 'del(.allowScripts["@zokugun/cli-utils"])'
