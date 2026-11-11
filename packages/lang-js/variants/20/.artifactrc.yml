@@ -13,8 +13,9 @@ always:
           else
             .
           end
-      - description: Remove commitizen from devDependencies
-        jq: 'del(.devDependencies.commitizen)'
+      - jq: 'del(.devDependencies.commitizen)'
+      - jq: 'del(.overrides["@mdit-vue/shared"])'
+      - jq: 'del(.overrides["ajv"])'
 
 upsert:
   .github/**/*.yml:
