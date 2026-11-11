@@ -11,5 +11,5 @@ always:
 
   package.json:
     transforms:
-      - description: Remove xo from devDependencies
-        jq: 'del(.devDependencies.xo)'
+      - jq: 'del(.devDependencies.xo)'
+      - jq: 'del(.allowScripts["unrs-resolver"])'
