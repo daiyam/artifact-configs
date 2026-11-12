@@ -7,7 +7,7 @@
 		"watch:src": "tsc-watch -p src"
 	},
 	"devDependencies": {
-		"@zokugun/tsc-leda": "0.9.4",
+		"@zokugun/tsc-leda": "0.9.5",
 		"tsc-watch": "7.2.1"
 	}
 }
