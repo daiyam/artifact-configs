@@ -6,7 +6,6 @@ always:
 
   package.json:
     transforms:
-      - jq: 'del(.scripts.release)'
       - jq: 'del(.devDependencies["release-it"])'
       - jq: 'del(.overrides["@octokit/request"])'
       - jq: 'del(.overrides["get-uri"])'
