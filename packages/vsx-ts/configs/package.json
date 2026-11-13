@@ -10,7 +10,7 @@
 		"build": "npm run clean && npm run compile:src && npm run bundle",
 		"clean": "rimraf lib out *.vsix",
 		"package": "rimraf *.vsix && vsce package",
-		"release": "bump-n-ship --all --pause",
+		"release": "bump-n-ship release --all --pause",
 		"vscode:prepublish": "npm run build",
 		"watch:src": "tsc-watch -p src --onSuccess 'npm run bundle'"
 	},
