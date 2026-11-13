@@ -2,8 +2,9 @@
 	"type": "module",
 	"scripts": {
 		"prepack": "npm run build",
-		"release": ""
+		"release": "bump-n-ship --all --pause"
 	},
 	"devDependencies": {
+		"@zokugun/bump-n-ship": "0.1.0"
 	}
 }
