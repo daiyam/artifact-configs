@@ -22,7 +22,7 @@
 	"devDependencies": {
 		"@types/vscode": "1.56.0",
 		"@vscode/vsce": "3.9.2",
-		"@zokugun/bump-n-ship": "0.1.0",
+		"@zokugun/bump-n-ship": "0.1.1",
 		"tsc-watch": "7.2.1"
 	},
 	"overrides": {
