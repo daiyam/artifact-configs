@@ -5,6 +5,6 @@
 		"release": "bump-n-ship release --all --pause"
 	},
 	"devDependencies": {
-		"@zokugun/bump-n-ship": "0.1.0"
+		"@zokugun/bump-n-ship": "0.1.1"
 	}
 }
