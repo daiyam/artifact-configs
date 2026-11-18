@@ -11,6 +11,7 @@
 		"clean": "rimraf lib out *.vsix",
 		"package": "rimraf *.vsix && vsce package",
 		"release": "bump-n-ship release --all --pause",
+		"version": "bump-changelog",
 		"vscode:prepublish": "npm run build",
 		"watch:src": "tsc-watch -p src --onSuccess 'npm run bundle'"
 	},
@@ -22,7 +23,8 @@
 	"devDependencies": {
 		"@types/vscode": "1.56.0",
 		"@vscode/vsce": "3.9.2",
-		"@zokugun/bump-n-ship": "0.1.1",
+		"@zokugun/bump-changelog": "0.1.0",
+		"@zokugun/bump-n-ship": "0.1.2",
 		"tsc-watch": "7.2.1"
 	},
 	"overrides": {
