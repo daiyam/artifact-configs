@@ -12,4 +12,3 @@ always:
   package.json:
     transforms:
       - jq: 'del(.devDependencies.xo)'
-      - jq: 'del(.allowScripts["unrs-resolver"])'
