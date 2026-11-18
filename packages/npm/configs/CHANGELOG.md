@@ -14,4 +14,4 @@ The format is based on [Keep a Changelog][keepachangelog], and this project adhe
 
 [keepachangelog]: https://keepachangelog.com/en/2.0.0/
 [semver]: https://semver.org/spec/v2.0.0.html
-[unreleased]: https://github.com/#[[vars.REPOSITORY_SLUG]]/compare/0.0.0...HEAD
+[unreleased]: https://github.com/#[[vars.REPOSITORY_SLUG]]/compare/v0.0.0...HEAD
