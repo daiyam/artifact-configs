@@ -1,12 +1,13 @@
 {
 	"type": "module",
 	"scripts": {
+		"changelog:unrelease": "bump-changelog unrelease",
 		"prepack": "npm run build",
 		"release": "bump-n-ship release --all --pause",
-		"version": "bump-changelog"
+		"version": "bump-changelog bump"
 	},
 	"devDependencies": {
-		"@zokugun/bump-changelog": "0.1.0",
+		"@zokugun/bump-changelog": "0.2.0",
 		"@zokugun/bump-n-ship": "0.1.2"
 	}
 }
